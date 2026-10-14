@@ -1,5 +1,5 @@
 interface:
   display_name: "科研演示设计"
-  short_description: "把研究材料转成可编辑的科研 PPT，完成矢量重绘、字体配色和逐页视觉检查"
+  short_description: "参照生图精细重建科研 PPT，保留构图与比例，制作原生图形并检查逐页动画"
   brand_color: "#38385B"
-  default_prompt: "使用 $research-slide-studio，保留已有研究叙事，将材料制作成可编辑的科研汇报 PPT，并检查最终渲染效果。"
+  default_prompt: "使用 $research-slide-studio，按参考构图与比例尽量重建科研 PPT，使用可编辑文字、路径与图表，逐页设计动画并检查实际渲染。"
