@@ -253,5 +253,15 @@
     21
   ],
   "raster_picture_count": 0,
-  "verified_slide_count": 22
+  "verified_slide_count": 22,
+  "object_svg_preset": {
+    "directory": "agent-workflow",
+    "graphics": "graphics.svg",
+    "text_layer": "labels.json",
+    "ppt": "editable-template.pptx",
+    "date": "2026-10-15",
+    "role": "Reusable object-level graphics source; text adjusted independently in PPT",
+    "schematic_only": true,
+    "ppt_sha256": "850cee55db556f2a81e4062cc210dbeda919d598cbba36880bdc3123b6e82b77"
+  }
 }
