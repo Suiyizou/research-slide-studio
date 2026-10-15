@@ -1,0 +1,913 @@
+{
+  "width": 1672,
+  "height": 941,
+  "coordinate_system": "Source image pixels; text y is baseline",
+  "role": "Independent editable text layer; wording and typography can be adjusted after graphics are approved",
+  "labels": [
+    {
+      "group": "heading",
+      "type": "text",
+      "id": "slide_title",
+      "x": 35,
+      "y": 46,
+      "w": 1602,
+      "lines": [
+        "A Forecasting Agent Works Through Evidence"
+      ],
+      "size": 46,
+      "bold": true,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 50,
+      "rotate": 0
+    },
+    {
+      "group": "heading",
+      "type": "text",
+      "id": "subtitle",
+      "x": 25,
+      "y": 81,
+      "w": 1622,
+      "lines": [
+        "The LLM chooses actions while external tools execute numeric work and return verifiable artifacts."
+      ],
+      "size": 26,
+      "bold": false,
+      "align": "center",
+      "color": "#535E80",
+      "font": "Times New Roman",
+      "leading": 29,
+      "rotate": 0
+    },
+    {
+      "group": "user_task",
+      "type": "text",
+      "id": "user_task_heading",
+      "x": 45,
+      "y": 138,
+      "w": 455,
+      "lines": [
+        "User task"
+      ],
+      "size": 32,
+      "bold": true,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 35,
+      "rotate": 0
+    },
+    {
+      "group": "user_task",
+      "type": "text",
+      "id": "target_axis_label",
+      "x": 26,
+      "y": 244,
+      "w": 63,
+      "lines": [
+        "Target"
+      ],
+      "size": 18,
+      "bold": false,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": -90
+    },
+    {
+      "group": "user_task",
+      "type": "text",
+      "id": "past_label",
+      "x": 69,
+      "y": 312,
+      "w": 95,
+      "lines": [
+        "Past"
+      ],
+      "size": 16,
+      "bold": false,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "user_task",
+      "type": "text",
+      "id": "forecast_horizon_label",
+      "x": 175,
+      "y": 312,
+      "w": 133,
+      "lines": [
+        "Forecast horizon"
+      ],
+      "size": 16,
+      "bold": false,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "user_task",
+      "type": "text",
+      "id": "time_label",
+      "x": 112,
+      "y": 331,
+      "w": 80,
+      "lines": [
+        "Time"
+      ],
+      "size": 17,
+      "bold": false,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "user_task",
+      "type": "text",
+      "id": "horizon_text",
+      "x": 361,
+      "y": 194,
+      "w": 133,
+      "lines": [
+        "Horizon"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "user_task",
+      "type": "text",
+      "id": "horizon_ellipsis",
+      "x": 466,
+      "y": 222,
+      "w": 28,
+      "lines": [
+        "…"
+      ],
+      "size": 23,
+      "bold": false,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "user_task",
+      "type": "text",
+      "id": "budget_text",
+      "x": 361,
+      "y": 276,
+      "w": 130,
+      "lines": [
+        "Budget"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "tool_library",
+      "type": "text",
+      "id": "tool_library_heading",
+      "x": 1176,
+      "y": 138,
+      "w": 456,
+      "lines": [
+        "Tool library"
+      ],
+      "size": 32,
+      "bold": true,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 35,
+      "rotate": 0
+    },
+    {
+      "group": "tool_library",
+      "type": "text",
+      "id": "data_tool_caption",
+      "x": 1180,
+      "y": 294,
+      "w": 133,
+      "lines": [
+        "Data tools",
+        "(load, process)"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 24,
+      "rotate": 0
+    },
+    {
+      "group": "tool_library",
+      "type": "text",
+      "id": "model_tool_caption",
+      "x": 1334,
+      "y": 294,
+      "w": 137,
+      "lines": [
+        "Modeling tools",
+        "(fit, simulate)"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 24,
+      "rotate": 0
+    },
+    {
+      "group": "tool_library",
+      "type": "text",
+      "id": "compute_tool_caption",
+      "x": 1480,
+      "y": 294,
+      "w": 164,
+      "lines": [
+        "Computation tools",
+        "(run, analyze)"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 24,
+      "rotate": 0
+    },
+    {
+      "group": "diagnose",
+      "type": "text",
+      "id": "diagnose_step",
+      "x": 549,
+      "y": 418,
+      "w": 46,
+      "lines": [
+        "1"
+      ],
+      "size": 30,
+      "bold": true,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 33,
+      "rotate": 0
+    },
+    {
+      "group": "diagnose",
+      "type": "text",
+      "id": "diagnose_title",
+      "x": 473,
+      "y": 464,
+      "w": 198,
+      "lines": [
+        "Diagnose"
+      ],
+      "size": 34,
+      "bold": true,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 37,
+      "rotate": 0
+    },
+    {
+      "group": "diagnose",
+      "type": "text",
+      "id": "diagnose_description",
+      "x": 473,
+      "y": 558,
+      "w": 198,
+      "lines": [
+        "Understand the task,",
+        "assess what is known",
+        "and needed"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "plan",
+      "type": "text",
+      "id": "task_info_label",
+      "x": 545,
+      "y": 158,
+      "w": 30,
+      "lines": [
+        "T"
+      ],
+      "size": 25,
+      "bold": true,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "plan",
+      "type": "text",
+      "id": "provide_task_label",
+      "x": 590,
+      "y": 153,
+      "w": 150,
+      "lines": [
+        "Provide task",
+        "and constraints"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "plan",
+      "type": "text",
+      "id": "formulate_plan_label",
+      "x": 582,
+      "y": 316,
+      "w": 114,
+      "lines": [
+        "Formulate",
+        "plan"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "plan",
+      "type": "text",
+      "id": "plan_step",
+      "x": 818,
+      "y": 203,
+      "w": 46,
+      "lines": [
+        "2"
+      ],
+      "size": 30,
+      "bold": true,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 33,
+      "rotate": 0
+    },
+    {
+      "group": "plan",
+      "type": "text",
+      "id": "plan_title",
+      "x": 731,
+      "y": 249,
+      "w": 220,
+      "lines": [
+        "Plan"
+      ],
+      "size": 34,
+      "bold": true,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 37,
+      "rotate": 0
+    },
+    {
+      "group": "plan",
+      "type": "text",
+      "id": "plan_budget_caption",
+      "x": 850,
+      "y": 289,
+      "w": 94,
+      "lines": [
+        "Budget"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "plan",
+      "type": "text",
+      "id": "plan_description",
+      "x": 739,
+      "y": 365,
+      "w": 204,
+      "lines": [
+        "Choose actions",
+        "and allocate resources"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "execute",
+      "type": "text",
+      "id": "execute_plan_label",
+      "x": 1023,
+      "y": 317,
+      "w": 123,
+      "lines": [
+        "Execute",
+        "chosen plan"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "execute",
+      "type": "text",
+      "id": "selected_tools_label",
+      "x": 1341,
+      "y": 439,
+      "w": 225,
+      "lines": [
+        "Use selected tools"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "execute",
+      "type": "text",
+      "id": "execute_step",
+      "x": 1075,
+      "y": 418,
+      "w": 46,
+      "lines": [
+        "3"
+      ],
+      "size": 30,
+      "bold": true,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 33,
+      "rotate": 0
+    },
+    {
+      "group": "execute",
+      "type": "text",
+      "id": "execute_title",
+      "x": 999,
+      "y": 464,
+      "w": 198,
+      "lines": [
+        "Execute"
+      ],
+      "size": 34,
+      "bold": true,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 37,
+      "rotate": 0
+    },
+    {
+      "group": "execute",
+      "type": "text",
+      "id": "execute_description",
+      "x": 1001,
+      "y": 561,
+      "w": 194,
+      "lines": [
+        "Call tools and",
+        "run the planned",
+        "workflow"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "run_artifacts",
+      "type": "text",
+      "id": "artifacts_heading",
+      "x": 1206,
+      "y": 647,
+      "w": 424,
+      "lines": [
+        "Run artifacts"
+      ],
+      "size": 32,
+      "bold": true,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 35,
+      "rotate": 0
+    },
+    {
+      "group": "run_artifacts",
+      "type": "text",
+      "id": "artifact_time_label",
+      "x": 1247,
+      "y": 815,
+      "w": 55,
+      "lines": [
+        "Time"
+      ],
+      "size": 15,
+      "bold": false,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "run_artifacts",
+      "type": "text",
+      "id": "execution_record_lines",
+      "x": 1524,
+      "y": 706,
+      "w": 103,
+      "lines": [
+        "status: success",
+        "steps: ...",
+        "tools: ...",
+        "artifacts: ...",
+        "..."
+      ],
+      "size": 11.8,
+      "bold": false,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Consolas",
+      "leading": 19.5,
+      "rotate": 0
+    },
+    {
+      "group": "run_artifacts",
+      "type": "text",
+      "id": "forecast_artifact_caption",
+      "x": 1196,
+      "y": 839,
+      "w": 145,
+      "lines": [
+        "Forecast curves",
+        "(with uncertainty)"
+      ],
+      "size": 17,
+      "bold": false,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 20,
+      "rotate": 0
+    },
+    {
+      "group": "run_artifacts",
+      "type": "text",
+      "id": "residual_artifact_caption",
+      "x": 1338.5,
+      "y": 839,
+      "w": 166,
+      "lines": [
+        "Aligned residual matrix",
+        "(actual vs. forecast)"
+      ],
+      "size": 16.5,
+      "bold": false,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 20,
+      "rotate": 0
+    },
+    {
+      "group": "run_artifacts",
+      "type": "text",
+      "id": "execution_artifact_caption",
+      "x": 1501,
+      "y": 839,
+      "w": 136,
+      "lines": [
+        "Execution record",
+        "(parameters, logs)"
+      ],
+      "size": 17,
+      "bold": false,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 20,
+      "rotate": 0
+    },
+    {
+      "group": "evaluate",
+      "type": "text",
+      "id": "return_artifacts_label",
+      "x": 1012,
+      "y": 688,
+      "w": 133,
+      "lines": [
+        "Return",
+        "real artifacts"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "evaluate",
+      "type": "text",
+      "id": "evaluate_step",
+      "x": 815,
+      "y": 633,
+      "w": 46,
+      "lines": [
+        "4"
+      ],
+      "size": 30,
+      "bold": true,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 33,
+      "rotate": 0
+    },
+    {
+      "group": "evaluate",
+      "type": "text",
+      "id": "evaluate_title",
+      "x": 727,
+      "y": 679,
+      "w": 222,
+      "lines": [
+        "Evaluate"
+      ],
+      "size": 34,
+      "bold": true,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 37,
+      "rotate": 0
+    },
+    {
+      "group": "evaluate",
+      "type": "text",
+      "id": "evaluate_description",
+      "x": 735,
+      "y": 792,
+      "w": 206,
+      "lines": [
+        "Assess artifacts,",
+        "update beliefs,",
+        "propose next action"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "experience_memory",
+      "type": "text",
+      "id": "memory_update_label",
+      "x": 527,
+      "y": 777,
+      "w": 170,
+      "lines": [
+        "Update memory",
+        "and next action"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "center",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "experience_memory",
+      "type": "text",
+      "id": "memory_heading",
+      "x": 45,
+      "y": 647,
+      "w": 417,
+      "lines": [
+        "Experience memory"
+      ],
+      "size": 32,
+      "bold": true,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 35,
+      "rotate": 0
+    },
+    {
+      "group": "experience_memory",
+      "type": "text",
+      "id": "memory_item_0",
+      "x": 274,
+      "y": 694,
+      "w": 202,
+      "lines": [
+        "Past tasks and plans"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "experience_memory",
+      "type": "text",
+      "id": "memory_item_1",
+      "x": 274,
+      "y": 735,
+      "w": 202,
+      "lines": [
+        "Tool use records"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "experience_memory",
+      "type": "text",
+      "id": "memory_item_2",
+      "x": 274,
+      "y": 776,
+      "w": 202,
+      "lines": [
+        "Results and reflections"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "experience_memory",
+      "type": "text",
+      "id": "memory_item_3",
+      "x": 274,
+      "y": 817,
+      "w": 202,
+      "lines": [
+        "Useful patterns"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "experience_memory",
+      "type": "text",
+      "id": "memory_item_4",
+      "x": 274,
+      "y": 858,
+      "w": 202,
+      "lines": [
+        "Open questions"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "feedback_and_return",
+      "type": "text",
+      "id": "refine_plan_label",
+      "x": 734,
+      "y": 515,
+      "w": 149,
+      "lines": [
+        "Refine plan",
+        "(if needed)"
+      ],
+      "size": 21,
+      "bold": false,
+      "align": "left",
+      "color": "#C36F8C",
+      "font": "Times New Roman",
+      "leading": 24,
+      "rotate": 0
+    },
+    {
+      "group": "feedback_and_return",
+      "type": "text",
+      "id": "sufficient_evidence_label",
+      "x": 1001,
+      "y": 779,
+      "w": 185,
+      "lines": [
+        "Sufficient evidence"
+      ],
+      "size": 19,
+      "bold": false,
+      "align": "left",
+      "color": "#535E80",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    },
+    {
+      "group": "feedback_and_return",
+      "type": "text",
+      "id": "return_forecast_label",
+      "x": 1051,
+      "y": 831,
+      "w": 126,
+      "lines": [
+        "Return forecast"
+      ],
+      "size": 19,
+      "bold": false,
+      "align": "left",
+      "color": "#1D2D60",
+      "font": "Times New Roman",
+      "leading": 23,
+      "rotate": 0
+    }
+  ]
+}

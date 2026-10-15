@@ -1,0 +1,267 @@
+{
+  "template": "faithful-vector-template.pptx",
+  "date": "2026-10-14",
+  "scope": "22-slide visual example; replace research facts",
+  "slide_size_px": [
+    1200,
+    675
+  ],
+  "fonts": [
+    "Source Han Serif SC Heavy",
+    "Noto Sans SC",
+    "Georgia"
+  ],
+  "colors": [
+    "#38385B",
+    "#9C5875",
+    "#EEF0F7"
+  ],
+  "reference_reconstructed_slides": [
+    2,
+    6
+  ],
+  "raster_tiles": false,
+  "corner_mountain_slide": 2,
+  "animation_plan": [
+    {
+      "slide": 1,
+      "mode": "native",
+      "initial": "标题及上下文",
+      "steps": [
+        "overview_estimator",
+        "overview_selector",
+        "overview_candidates",
+        "overview_feedback",
+        "overview_update"
+      ],
+      "reason": "沿用已验证的语义动画组。"
+    },
+    {
+      "slide": 2,
+      "mode": "native-vector",
+      "initial": "标题、阅读指南",
+      "steps": [
+        "Q1 任务特征与候选排序",
+        "Q2 等 MAE 残差及配对比较",
+        "Q3 同预算搜索与评价",
+        "右下角研究路径"
+      ],
+      "reason": "按原图位置、比例重建文本、图标、曲线与面板；山形为角落原生矢量插画。"
+    },
+    {
+      "slide": 3,
+      "mode": "native",
+      "initial": "标题与页脚",
+      "steps": [
+        "内容阶段 1"
+      ],
+      "reason": "整体展示相互依赖的图形，防止连接线悬空。"
+    },
+    {
+      "slide": 4,
+      "mode": "native",
+      "initial": "标题与页脚",
+      "steps": [
+        "内容阶段 1",
+        "内容阶段 2"
+      ],
+      "reason": "先展示图示，再呈现解释或验收条件。"
+    },
+    {
+      "slide": 5,
+      "mode": "native",
+      "initial": "标题与页脚",
+      "steps": [
+        "内容阶段 1"
+      ],
+      "reason": "整体展示相互依赖的图形，防止连接线悬空。"
+    },
+    {
+      "slide": 6,
+      "mode": "native-vector",
+      "initial": "标题与图例",
+      "steps": [
+        "完整执行前泳道",
+        "完整执行后泳道",
+        "状态更新与两条入线"
+      ],
+      "reason": "重建图表、矩阵、模型卡与漏斗；每条泳道作为讲解单元，保持中间状态完整。"
+    },
+    {
+      "slide": 7,
+      "mode": "native",
+      "initial": "标题、完整图表对照",
+      "steps": [
+        "内容阶段 1"
+      ],
+      "reason": "四幅教学图及标注同时保留，点击显示解释，便于横向比较。"
+    },
+    {
+      "slide": 8,
+      "mode": "native",
+      "initial": "标题与页脚",
+      "steps": [
+        "内容阶段 1",
+        "内容阶段 2"
+      ],
+      "reason": "先展示图示，再呈现解释或验收条件。"
+    },
+    {
+      "slide": 9,
+      "mode": "native",
+      "initial": "标题与页脚",
+      "steps": [
+        "内容阶段 1"
+      ],
+      "reason": "整体展示相互依赖的图形，防止连接线悬空。"
+    },
+    {
+      "slide": 10,
+      "mode": "native",
+      "initial": "标题与页脚",
+      "steps": [
+        "内容阶段 1"
+      ],
+      "reason": "整体展示相互依赖的图形，防止连接线悬空。"
+    },
+    {
+      "slide": 11,
+      "mode": "native",
+      "initial": "标题及上下文",
+      "steps": [
+        "matched_B",
+        "matched_C",
+        "matched_eval"
+      ],
+      "reason": "沿用已验证的语义动画组。"
+    },
+    {
+      "slide": 12,
+      "mode": "native",
+      "initial": "标题及上下文",
+      "steps": [
+        "sequence_rank",
+        "sequence_run",
+        "sequence_validate",
+        "sequence_update",
+        "sequence_branch"
+      ],
+      "reason": "沿用已验证的语义动画组。"
+    },
+    {
+      "slide": 13,
+      "mode": "native",
+      "initial": "标题与页脚",
+      "steps": [
+        "内容阶段 1"
+      ],
+      "reason": "整体展示相互依赖的图形，防止连接线悬空。"
+    },
+    {
+      "slide": 14,
+      "mode": "native",
+      "initial": "标题、完整实验矩阵",
+      "steps": [
+        "内容阶段 1"
+      ],
+      "reason": "实验矩阵完整保留，点击展示首张结果表的说明。"
+    },
+    {
+      "slide": 15,
+      "mode": "native",
+      "initial": "标题与页脚",
+      "steps": [
+        "内容阶段 1",
+        "内容阶段 2",
+        "内容阶段 3"
+      ],
+      "reason": "按 Regret、Best-so-far、AUC 逐个解释指标。"
+    },
+    {
+      "slide": 16,
+      "mode": "native",
+      "initial": "标题与页脚",
+      "steps": [
+        "内容阶段 1"
+      ],
+      "reason": "整体展示相互依赖的图形，防止连接线悬空。"
+    },
+    {
+      "slide": 17,
+      "mode": "native",
+      "initial": "标题与页脚",
+      "steps": [
+        "内容阶段 1"
+      ],
+      "reason": "整体展示相互依赖的图形，防止连接线悬空。"
+    },
+    {
+      "slide": 18,
+      "mode": "native",
+      "initial": "标题与页脚",
+      "steps": [
+        "内容阶段 1",
+        "内容阶段 2"
+      ],
+      "reason": "先展示图示，再呈现解释或验收条件。"
+    },
+    {
+      "slide": 19,
+      "mode": "native",
+      "initial": "标题与页脚",
+      "steps": [
+        "内容阶段 1",
+        "内容阶段 2",
+        "内容阶段 3"
+      ],
+      "reason": "按三项贡献分别展示对应的证据与产物。"
+    },
+    {
+      "slide": 20,
+      "mode": "native",
+      "initial": "标题与页脚",
+      "steps": [
+        "内容阶段 1"
+      ],
+      "reason": "整体展示相互依赖的图形，防止连接线悬空。"
+    },
+    {
+      "slide": 21,
+      "mode": "native",
+      "initial": "标题与页脚",
+      "steps": [
+        "内容阶段 1"
+      ],
+      "reason": "整体展示相互依赖的图形，防止连接线悬空。"
+    },
+    {
+      "slide": 22,
+      "mode": "static",
+      "initial": "全部参考资料",
+      "steps": [],
+      "reason": "参考页需要随时查阅，不进行逐项隐藏；保留统一页间转场。"
+    }
+  ],
+  "sha256": "4d32ceb4a98ada23ad64e651bc96fd48c0be8df4e7602e6282417a3f0f3846fb",
+  "connector_animation_fix_slides": [
+    3,
+    5,
+    9,
+    13,
+    16,
+    20,
+    21
+  ],
+  "raster_picture_count": 0,
+  "verified_slide_count": 22,
+  "object_svg_preset": {
+    "directory": "agent-workflow",
+    "graphics": "graphics.svg",
+    "text_layer": "labels.json",
+    "ppt": "editable-template.pptx",
+    "date": "2026-10-15",
+    "role": "Reusable object-level graphics source; text adjusted independently in PPT",
+    "schematic_only": true,
+    "ppt_sha256": "850cee55db556f2a81e4062cc210dbeda919d598cbba36880bdc3123b6e82b77"
+  }
+}
