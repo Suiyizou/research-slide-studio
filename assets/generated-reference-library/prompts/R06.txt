@@ -1,0 +1,17 @@
+Create a polished 16:9 Chinese academic research slide as a SCIENTIFIC FIGURE DESIGN REFERENCE, not a UI screenshot. The supplied image is STYLE REFERENCE ONLY: retain the navy/slate-blue, pale lavender, muted magenta family and refined thin outlines, but replace its oversimplified content and layout completely. Nature-style scientific diagram detail and publication figure hierarchy. No tables, no three-line ruled text list. Crisp white background, careful alignment, modest pale gradients, generous but purposeful spacing. Flat vector-ready scientific illustrations, no stock photographs. No experimental numerical outcomes.
+
+Title: "现有研究（一）：推荐、性能估计与动态选择已发展到哪一步"
+Subtitle: "区分方法的输入、输出和决策对象，进一步界定细粒度反馈的研究空间"
+Top-right small chapter label "03 现有研究与不足".
+
+Composition: top half has THREE connected progression modules, explicitly conceptual capability progression rather than a historical chronology (do not put dates on an increasing timeline, FFORMPP was published before FFORMS).
+Module 1 left: "FFORMS · 2023" / "特征驱动模型推荐". A time-series wave and feature mini-plots (trend / seasonality / ACF) -> a small recognizable RandomForest classifier with varied trees -> one selected model name card. Caption: "时序特征 → RF 分类 → 推荐模型". Small research boundary: "学习特征与最佳模型的映射".
+Module 2 middle: "FFORMPP · 2022" / "联合预测多模型误差". Feature encoding -> Bayesian multivariate regression icon -> several error-output slots clearly marked estimates rather than empirical results -> ranked subset. A small correlation matrix is integral. Captions "联合建模候选误差相关性" and "预测 MASE 向量 → 排序 / Top-k 组合". Do not say it conditions on current-task observed validation residuals.
+Module 3 right: "Moeini 等 · AAAI 2026" / "架构与超参数联合推荐". Separate task representation and neural-architecture/configuration representation merge into learned performance surrogate -> architecture + hyperparameter configuration. Caption "迁移历史搜索记录，输出配置级推荐".
+
+Lower half TWO wider scientifically detailed modules, not rows of a table:
+Left "MASTFM · ECML-PKDD 2025" / "预测模型何时承压". Input-series statistics + performance estimates from model outputs -> stress-probability/diagnosis node -> SHAP explanation mini-plot. Captions "数据增强补足稀少压力样本" and "决策对象：已关注模型的压力状态".
+Right "TimeSpeaks · 2025" / "预测何时切换哪个候选". A short history sequence of colored tokens labelled model A/B/A -> BiLSTM / TimeXer -> future best-model-label sequence. Caption "学习最优模型标签的时序依赖" / "决策对象：既有候选的持续预测选择". Do not present TimeSpeaks as a direct residual-regression model; that is not its principal mechanism.
+
+Full-width magenta research-opportunity band at bottom: "可推进：利用已执行候选的样本外验证残差，检验对尚未执行候选的增量判断价值"
+A small fine-print boundary: "序列分解残差统计 与 具体预测器的样本外残差，需要区分". No claim that residuals, model selection or feedback are unstudied. Every named paper and specific input/output mechanism must have visible space, clear labels and readable text. Beautiful fully composed diagram with substantial informative detail, not repeated empty boxes.

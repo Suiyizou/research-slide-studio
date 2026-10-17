@@ -1,0 +1,234 @@
+{
+  "description": "历史 image_gen 原始返回图，按原始字节保存；PPT 导出预览另存于 research-layout-library。",
+  "overview_count": 4,
+  "page_reference_count": 7,
+  "prompt_context": "提示词中的 supplied/attached image 指当次输入的风格图；复用提示词时附上适合当前课题的实际参考。",
+  "entries": [
+    {
+      "id": "O01",
+      "title": "总览方案 A",
+      "category": "overview",
+      "image": "originals/O01-overview-A.png",
+      "prompt": "prompts/O01.txt",
+      "source_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\exec-841f0396-1e7d-471b-be37-b2b0194b8456.png",
+      "source_prompt_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\overview-prompts.json",
+      "tool": "image_gen.imagegen",
+      "sha256": "330a1fa8e16b46bf85aa71b9ffac0b6adfa67f36ca42f895e2204b9869a039a5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "reference_focus": "六格代表页的构图、信息密度与细节处理",
+      "adoption": "第 1 格的研究背景构图演化为 L03。",
+      "related_layouts": [
+        "L03"
+      ],
+      "relationship": "miniature_adapted"
+    },
+    {
+      "id": "O02",
+      "title": "总览方案 B",
+      "category": "overview",
+      "image": "originals/O02-overview-B.png",
+      "prompt": "prompts/O02.txt",
+      "source_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\exec-168046ef-e36d-44de-b5ff-a2a8921f27f6.png",
+      "source_prompt_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\overview-prompts.json",
+      "tool": "image_gen.imagegen",
+      "sha256": "e74021f3b4cab88b323975a1a27854bcf8504dec37b30cbce2f7547c1cef7bda",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "reference_focus": "六格代表页的构图、信息密度与细节处理",
+      "adoption": "第 2 格的三角关系构图演化为 L04。",
+      "related_layouts": [
+        "L04"
+      ],
+      "relationship": "miniature_adapted"
+    },
+    {
+      "id": "O03",
+      "title": "总览方案 C",
+      "category": "overview",
+      "image": "originals/O03-overview-C.png",
+      "prompt": "prompts/O03.txt",
+      "source_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\exec-2027d20a-274e-4783-9798-6c2fae1f4e77.png",
+      "source_prompt_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\overview-prompts.json",
+      "tool": "image_gen.imagegen",
+      "sha256": "7130fb676b1acbca8d850f000148cba296a7ac5b13635f97e2902c6eb9a92bb4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "reference_focus": "六格代表页的构图、信息密度与细节处理",
+      "adoption": "第 6 格的证据汇合构图演化为 L13。",
+      "related_layouts": [
+        "L13"
+      ],
+      "relationship": "miniature_adapted"
+    },
+    {
+      "id": "O04",
+      "title": "总览方案 D",
+      "category": "overview",
+      "image": "originals/O04-overview-D.png",
+      "prompt": "prompts/O04.txt",
+      "source_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\exec-b7b62afa-4a0c-42fe-b336-4e029e2754f8.png",
+      "source_prompt_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\overview-prompts.json",
+      "tool": "image_gen.imagegen",
+      "sha256": "01dec512992ab3d45dd559d75ed9f7bb3e1b2c0da162cb7befdac4ac902db076",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "reference_focus": "六格代表页的构图、信息密度与细节处理",
+      "adoption": "第 5 格结合 R04 的独立总流程参考，形成 L12。",
+      "related_layouts": [
+        "L12"
+      ],
+      "relationship": "miniature_adapted"
+    },
+    {
+      "id": "R01",
+      "title": "研究意义：过程方案",
+      "category": "page_reference",
+      "image": "originals/R01-significance-process.png",
+      "prompt": "prompts/R01.txt",
+      "source_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\exec-d9282e0d-916f-4bab-ad14-024ee2769b45.png",
+      "source_prompt_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\detailed-prompts.json",
+      "tool": "image_gen.imagegen",
+      "sha256": "32667d9e54d0b24921e9858799ca76a26a43e709173ab7132d729465a96a2db3",
+      "dimensions": [
+        1672,
+        940
+      ],
+      "reference_focus": "档案、验证反馈汇入估计器，再到执行与更新",
+      "adoption": "探索过程式意义表达；最终意义页 L04 采用 O02 的三角构图。",
+      "related_layouts": [],
+      "relationship": "variant"
+    },
+    {
+      "id": "R02",
+      "title": "研究不足：四问题汇合",
+      "category": "page_reference",
+      "image": "originals/R02-research-gaps.png",
+      "prompt": "prompts/R02.txt",
+      "source_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\exec-feb987e3-1d2a-4df8-9b1c-5dfa294a455e.png",
+      "source_prompt_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\detailed-prompts.json",
+      "tool": "image_gen.imagegen",
+      "sha256": "c2e550688ef11c5d32492c82eae3a34bcb4ca5c722d3796122b16785b5f8269d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "reference_focus": "四组具体机制对照与中心研究问题",
+      "adoption": "历史设计方案；现行文献进展页参考 R06/R07。",
+      "related_layouts": [],
+      "relationship": "variant"
+    },
+    {
+      "id": "R03",
+      "title": "残差结构与 A/B/C 消融",
+      "category": "page_reference",
+      "image": "originals/R03-residual-ablation.png",
+      "prompt": "prompts/R03.txt",
+      "source_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\exec-a4ee2941-871a-4dc2-b2f6-2f67aacf1a11.png",
+      "source_prompt_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\detailed-prompts.json",
+      "tool": "image_gen.imagegen",
+      "sha256": "c51743cfce3d77984d6beeec48bcb28cd343ac8d91068de6a99166ecbc2c2742",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "reference_focus": "预测与残差、ACF、频谱、信息增量对照",
+      "adoption": "拆分并核对科学语义后形成 L08/L09，分别承担反馈解释与消融。",
+      "related_layouts": [
+        "L08",
+        "L09"
+      ],
+      "relationship": "split_and_refined"
+    },
+    {
+      "id": "R04",
+      "title": "总体研究框架",
+      "category": "page_reference",
+      "image": "originals/R04-overall-workflow.png",
+      "prompt": "prompts/R04.txt",
+      "source_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\exec-a20621cd-71cc-4e46-8524-6d388caeee97.png",
+      "source_prompt_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\detailed-prompts.json",
+      "tool": "image_gen.imagegen",
+      "sha256": "49338b503b966afcea933de7d1945e612bc60da4748e9320a21f85a7a12f5b1f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "reference_focus": "离线档案、当前任务、选择器、候选池、验证与反馈回环",
+      "adoption": "对应 L12；重点参考完整信息流和不同模块的内部细节。",
+      "related_layouts": [
+        "L12"
+      ],
+      "relationship": "refined_reconstruction"
+    },
+    {
+      "id": "R05",
+      "title": "总结：过程方案",
+      "category": "page_reference",
+      "image": "originals/R05-synthesis-process.png",
+      "prompt": "prompts/R05.txt",
+      "source_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\exec-601ddbc0-51f5-4f55-aaa4-05fc306e47cf.png",
+      "source_prompt_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\ts-agent-group-meeting-20261015\\references\\detailed-prompts.json",
+      "tool": "image_gen.imagegen",
+      "sha256": "d80f01ec196710ab6dda17c04b26cf181de4f257ff8e7bbd3a935054cb8083b8",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "reference_focus": "信息证据汇合、实验决策、贡献与下一步",
+      "adoption": "总结的过程式备选；最终 L13 的证据汇合构图来自 O03 第 6 格。",
+      "related_layouts": [],
+      "relationship": "variant"
+    },
+    {
+      "id": "R06",
+      "title": "文献进展：五篇机制",
+      "category": "page_reference",
+      "image": "originals/R06-literature-progress.png",
+      "prompt": "prompts/R06.txt",
+      "source_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\literature-gaps-two-slides-20261015\\references\\01-文献进展参考.png",
+      "source_prompt_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\literature-gaps-two-slides-20261015\\prompts.json",
+      "tool": "image_gen.imagegen",
+      "sha256": "7981e4614dc1f444d191b43f12d780ea52233a781a5b1898130ba7c8f028fe83",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "reference_focus": "五篇工作的输入、具体方法、输出、验证与研究空间",
+      "adoption": "对应 L05，采用原图构图后精修为可编辑对象。",
+      "related_layouts": [
+        "L05"
+      ],
+      "relationship": "refined_reconstruction"
+    },
+    {
+      "id": "R07",
+      "title": "搜索闭环与推进空间",
+      "category": "page_reference",
+      "image": "originals/R07-search-and-opportunities.png",
+      "prompt": "prompts/R07.txt",
+      "source_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\literature-gaps-two-slides-20261015\\references\\02-搜索与推进空间参考.png",
+      "source_prompt_file": "C:\\Users\\ASUS\\Documents\\ChatGPT\\科研\\outputs\\literature-gaps-two-slides-20261015\\prompts.json",
+      "tool": "image_gen.imagegen",
+      "sha256": "17436e51b452b040005ac7cfc2e65840b86fd53c17d1449dec4d37258c3307e8",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "reference_focus": "已有搜索与自动化闭环、拟验证增量、总成本与收益",
+      "adoption": "对应 L06，采用原图构图后精修为可编辑对象。",
+      "related_layouts": [
+        "L06"
+      ],
+      "relationship": "refined_reconstruction"
+    }
+  ]
+}

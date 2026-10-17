@@ -1,5 +1,5 @@
 interface:
   display_name: "科研演示设计"
-  short_description: "参照生图精细重建科研 PPT，保留构图与比例，制作原生图形并检查逐页动画"
+  short_description: "先生成约半数页面的 Nature 科研参考，再一比一矢量重建与章节导航验收"
   brand_color: "#38385B"
-  default_prompt: "使用 $research-slide-studio，按参考构图与比例尽量重建科研 PPT，使用可编辑文字、路径与图表，逐页设计动画并检查实际渲染。"
+  default_prompt: "使用 $research-slide-studio，先生成四套总览，再为约 50% 总页数生成各自主题的 Nature figure 参考图，按参考一比一重建真实 SVG 与独立文字，采用醒目目录和白底蓝横幅章节页，并完成 PowerPoint 实际渲染验收。"
