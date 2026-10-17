@@ -1,0 +1,25 @@
+Create the SECOND slide in the same Chinese scientific group-meeting chapter, a polished 16:9 high-resolution Nature-style scientific process figure. Input image is STYLE REFERENCE ONLY. Maintain navy / slate blue / pale lavender and magenta, delicate purposeful vector-ready objects, beautiful refined scientific typography, white background. Do NOT preserve the previous two empty comparison panels. No table, no ruled text rows. Must be a coherent informative diagram about WHAT EXISTING RESEARCH CAN ALREADY DO and the SPECIFIC remaining investigation. No invented experimental results.
+
+Title: "现有研究（二）：搜索与执行已有闭环，提升空间落在反馈与收益"
+Subtitle: "已有工作已覆盖配置搜索、自动训练和报告，进一步检验残差是否改变决策并节省总成本"
+Chapter "03 现有研究与不足".
+
+Composition distinctly different from slide 1's five-method map. Use an asymmetric L-shaped literature foundation around a large magenta-accent proposed-study diagram, with no arrows suggesting these independent papers directly depend on each other.
+
+LEFT COLUMN, two substantive method figures:
+Upper panel "SMAC3 · JMLR 2022" / "配置搜索已有序贯反馈". Show configuration lambda -> train/evaluate -> scalar validation loss -> RF surrogate update -> acquisition chooses next configuration, as a compact closed loop. Caption "支持算法选择与超参数联合搜索（CASH）" and "多保真模式可用较低预算筛选配置". Clear actual input/output. This is existing capability, not proposed novelty.
+Lower panel "AutoGluon-TimeSeries · AutoML 2023" / "自动训练与集成已有实现". Heterogeneous model icons statistical / machine learning / deep learning feed rolling or time-series validation -> weighted ensemble -> point + quantile forecast. A visible time-budget clock. Caption "统一训练、时序验证与模型集成" and "已有结果评价预测精度与计算效率". No numeric performance gains.
+
+UPPER RIGHT WIDE PANEL:
+"TimeSeriesScientist · 2025" / "预测任务 Agent 已有执行闭环".
+Four connected identifiable role icons and exact role labels "Curator 数据诊断" -> "Planner 候选规划" -> "Forecaster 训练 / 验证 / 调整与集成" -> "Reporter 过程报告".
+Show a modest return loop from validation to configuration adjustment inside Forecaster, not a claim that Reporter chooses numeric scores. Caption "训练与验证结果已用于配置和集成调整".
+
+LOWER RIGHT LARGE STUDY PANEL, explicitly labelled "本研究拟推进的两步验证" (hypothesis, not prior result):
+Step 1: "更细的反馈，是否改变未执行候选排序？"
+A common information base "B：任务特征 + 已执行模型身份 + 整体误差" and an additional magenta side object "C 额外加入：样本外残差结构" with four tiny labelled analyses "偏差 / ACF / 频域 / 分步长". Both lead to performance estimates of untried "PatchTST ?" and "TimesNet ?". Highlight "比较 C 相对 B，保持候选池和元模型容量一致". Distinguish candidate identity from scalar error and residual structure.
+Step 2: "排序改善，是否带来净搜索收益？"
+One equal overall-budget bracket compares "无残差反馈" and "含残差反馈", no fake curves or numeric outcomes. Show actual cost accounting formula "总成本 = 训练 + 验证 + 特征提取 + 决策". Outcomes to evaluate displayed graphically as target / clock icons: "同预算最佳误差" and "达到目标的实际成本". A visible note "残差计算开销也计入预算".
+
+Bottom conclusion band: "提升空间：在已有搜索与自动化能力之上，建立“残差增量信息 → 实际决策改变 → 净成本收益”的直接证据"
+Small notes "具体增量价值需实验验证，不预设首创或收益成立". Every method must have readable concrete input/output details rather than generic icons, balanced page, accurately aligned arrows and labels.
