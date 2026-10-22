@@ -1,0 +1,29 @@
+Use case: productivity-visual. Create ONE image that is a polished 2×2 contact sheet of FOUR DIFFERENT but stylistically coherent Chinese PowerPoint content-slide design references. Exactly four cells, no extra cells. All cells are landscape 16:9 slides with narrow equal gutters; the whole image should also be approximately 16:9. Render flat, straight-on digital slides, not laptop screens, printed papers, angled mockups, moodboards, app dashboards or a collage of overlapping slide sheets. No external decorative frame. Each cell must contain a finished content composition, NOT a blank template and NOT a sparse title cover. Use simplified Chinese; render the listed short headings and essential labels accurately. Additional body copy should be concise, relevant Chinese explanatory phrases, not lorem ipsum, gibberish, decorative microtext or enormous paragraphs.
+
+GLOBAL CONTENT-DENSITY CONTRACT:
+Every cell must have a clear question/message, several meaningful content groups, specific subject illustrations or diagrams, and explanatory labels. Content-rich means multiple meaningful relationships, explanatory details and usable body content, not tiny text. Large background scenery, decorative shapes and oversized headings do not count as information. Research/analytical cells are high density: one main mechanism or evidence area plus 3–5 supporting information groups where the content warrants them, approximately 70–85% of the usable body area actively organized. Everyday/social/emotional cells are medium density: 4–6 substantive information groups or a coherent illustrated narrative with equally substantial short explanations, approximately 60–75% organized body area. These ranges are design targets, not pixel measurements. Maintain real breathing room and hierarchy; no cell may be sparse. Do NOT use a giant title, one picture and one sentence as a finished slide. Do NOT shrink body text to microscopic size: keep main titles about 5–7% and important body text about 2.5–3.5% of the individual slide height, with short labels nearby. If crowded, simplify phrases and prioritize the question; do not remove required content or replace it with tiny fake writing.
+
+SOURCE/FACT CONTRACT:
+These are fictional instructional STYLE EXAMPLES, not actual research findings, organizations, people, locations, products or events. Mark the four cells unobtrusively “风格示例”. Do not invent quantitative results, charts suggesting performance, real testimonials, dates, awards, institution logos, quotes, provenance or policy text. Where a quantitative graph is requested, show a clearly structured plot LOCATION with axes/variable labels and “真实数据待填”; no invented curves, bars, dots, numerical KPIs or significance. Qualitative sequence illustrations may be labeled “示意” and have no fabricated measured values. Original illustrated people, objects and scenes may be generated as style assets and must not impersonate user-provided real photos. Preserve the distinction between actual source facts, proposed plans and illustrations.
+
+Deliver a beautiful, coherent, legible four-slide contact sheet with distinct page relationships, NOT four copies of the same layout. Topic decides the style: never import Nature figure visuals into all themes. Keep each style's typography, color logic, line treatment, materials and icon vocabulary consistent across its own four cells. No stock watermarks, no OpenAI/model labels inside the image, no invented brands.
+
+STYLE ID: S02. THEME: 项目介绍. STYLE NAME: 项目介绍 · 商务战略.
+Target information density: 中高; preserve the global density and legibility contract.
+Palette: 深海军蓝 #11283E、冷白 #F6F8FA、青绿 #007F84、浅灰蓝 #DCE5ED.
+Art direction, typography and visual grammar: 成熟咨询报告与企业提案的结合，直角网格、分层编号、细线架构、清晰交付物，不用科学论文图标或科技霓虹。
+
+FOUR CELL CONTENTS AND COMPOSITIONS (read top-left, top-right, bottom-left, bottom-right):
+CELL 1 — exact main heading “从业务问题到项目价值”:
+左上简明项目标题，左下四项痛点带场景插图；中部用连接路径到解决方案，右侧为三项价值与边界。底部完整范围条，文字：现状、痛点、方案、价值、范围，不能只放一句宣传语。
+
+CELL 2 — exact main heading “方案架构与模块职责”:
+上下三层架构：业务入口、核心能力、数据与运营，内部至少六个具体模块；右边竖向责任与依赖说明，底部列用户、业务团队、交付团队三个角色。连接清楚，图元互不重叠。
+
+CELL 3 — exact main heading “实施路线与交付里程碑”:
+五阶段横向时间路径，每阶段包含任务、交付物、验收条件；下方用两条泳道表达产品与技术并行工作，右下放风险与应对两组短句，不捏造日期和完成率。
+
+CELL 4 — exact main heading “资源协同与决策事项”:
+左侧角色分工矩阵用文字标签不塞长段落，中间预算类别和资源需求，右侧三条待决策事项；底部一条下一步行动路线。密度充实，强调可执行信息。
+
+Final QA before finishing: each of the four cells contains substantive content and clearly visible explanatory details; no empty title-only or thank-you page; each follows its prescribed relationship and all four share this theme's visual identity. Important text remains large enough within each individual cell. No fabricated quantitative evidence. Show all four cells completely with clean edges.

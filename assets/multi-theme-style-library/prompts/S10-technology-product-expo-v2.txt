@@ -1,0 +1,26 @@
+Create a PREMIUM, highly detailed Chinese PowerPoint design reference contact sheet with EXACTLY 2×2 FOUR complete landscape 16:9 slides, all visible and straight-on. Native 3840×2160 pixels or highest native landscape resolution available; sharp crisp text and rich micro-structure. Do not upscale an existing bitmap or reuse its low-resolution pixels. Requesting 4K is an output goal; use the largest native canvas the image engine can actually produce.
+
+The attached first reference is our existing Nature-style literature mechanisms figure: learn its specific interior structures, thin precise scientific geometry, substantial information density, input-output relationships and small analytical insets. The attached second reference is a detailed overall workflow: learn multiscale objects, documented feedback routes, meaningful line styles and refinement. They are VISUAL DETAIL / INFORMATION DESIGN references only. Do not reproduce their forecasting content, model names, paper citations, dates, language mistakes or scientific claims. Build fresh original content specified below. Adopt nature-figure skill principles: one question per slide, evidence hierarchy determines visual hierarchy, one strong hero diagram where appropriate, supporting panels have distinct explanatory roles, consistent semantic palettes, explicit relationships, directly anchored short labels and beautifully executed object details. Professional composition, not a generic card template.
+
+VERY IMPORTANT IMPROVEMENT OVER PREVIOUS SET: replace equal-width colored boxes, repeated icon lists and large smiling-person illustrations with bespoke object-level graphics, meaningful multiscale detail, sectional/axonometric drawings, elegant interface diagrams, localized magnification insets, carefully routed connections and quiet annotation clusters. Typography, line-weight, color, detail, light/material treatment and hierarchy should feel designed together. Rich does NOT mean ornamental: every inset and fine structure must explain something. Avoid black-box decoration, unrelated molecular dots, fake charts, random texture, giant titles and empty poster design. No four cells sharing the same composition. Organize roughly 75–85% of the usable body as meaningful content, with real grouping whitespace; headings are compact, essential body type remains readable, about 2.5–3.5% of each individual slide's height. Use at least 4 meaningful information groups or equally rich coherent narrative per slide; main objects have visible internal content rather than empty containers. No microscopic fake text.
+
+All pages are fictional EDUCATIONAL DESIGN EXAMPLES, not research evidence, real projects or medical advice. Mark each cell unobtrusively “精绘方案 · 示意”. Never invent measured results, quantitative graphs, numerical trends, statistical significance, clinical findings, paper citations, product specifications or official brands. If requested, a true-data placeholder is SMALL and explicitly labeled; it must not dominate or make the page sparse. Graphical object relationships are illustrative for the supplied concept. Exact short headings and labels should be Chinese and legible. Final editable slides will be rebuilt downstream; prioritize clean structural boundaries, meaningful connections and well-positioned text anchors. No watermarks, no slide frames rendered as screens, no perspective-warped slide mockups.
+
+STYLE S10 · VERSION V2 · 科技产品 · 精密工业展陈
+Information density: 中高.
+Palette and material: 深石墨 #0B1723、冷白、钛银、冰青 #6AD9DC、少量琥珀用于交互状态，避免廉价满屏霓虹.
+Art direction: 工业设计评审与高级硬件展陈结合：原创概念设备的真实材质、精密爆炸图、光学层/声学层/电路层/结构层、部件局部放大、硬件细导线与清楚标注。向 Nature 科学插图学习剖切解释和多尺度，而不把产品页做成学术论文。
+FOUR SPECIFIC SLIDES (top-left, top-right, bottom-left, bottom-right):
+SLIDE 1: exact heading “一件产品，多个层次的设计”.
+原创桌面交互设备主视角占左中约一半，具有真实接缝、微孔、磨砂金属、半透光窗和结构支架。右侧三组局部放大分别解释光学观察窗、声学开孔、模块化接口，底部完整情境带给出场景、交互、系统边界及维护四组说明。避免球形可爱机器人加三条宣传语；无品牌、无性能数字。
+
+SLIDE 2: exact heading “把外壳打开，理解模块协同”.
+从左下到右上的斜向精密爆炸图，清楚分开外壳、传感组件、电路板、散热支架、电源模块和底座；每个部件包含可见内部细节及引线标注。周围至少三处局部放大，底部一条信号流与一条供电流的示意路径，颜色和线型区分。配右侧结构约束和待确认规格，不能编造芯片型号、带宽或电池数据。
+
+SLIDE 3: exact heading “体验不是功能清单”.
+主图是三个使用场景的横向剖切组合：桌面会议、居家交流、个人学习，每个场景有设备、人物动作和输入输出小框；下方一条连续交互路径包含唤起、输入、反馈、确认，并用细线对应到场景。右侧小区域说明可用性、隐私边界、异常反馈的验证项目，明确概念设计。
+
+SLIDE 4: exact heading “让展台讲清产品”.
+主视觉为完整展台轴测空间，四个体验站带真实陈列物、设备、剖切展品和标识，路径清楚；右侧层次结构呈现当前概念、需验证能力、下一阶段，下方列合作讨论和测试问题。用充实的展陈细节提升完成度，不画空旷舞台和巨大口号。
+
+Final check: show four genuinely different page relationships in one refined coherent style. Match the sophistication and explanatory fine detail of the provided Nature reference, while preserving this theme. Do not turn these pages into generic science clipart. Keep diagram details and Chinese type crisp at the largest native resolution.

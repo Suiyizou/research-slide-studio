@@ -1,0 +1,29 @@
+Use case: productivity-visual. Create ONE image that is a polished 2×2 contact sheet of FOUR DIFFERENT but stylistically coherent Chinese PowerPoint content-slide design references. Exactly four cells, no extra cells. All cells are landscape 16:9 slides with narrow equal gutters; the whole image should also be approximately 16:9. Render flat, straight-on digital slides, not laptop screens, printed papers, angled mockups, moodboards, app dashboards or a collage of overlapping slide sheets. No external decorative frame. Each cell must contain a finished content composition, NOT a blank template and NOT a sparse title cover. Use simplified Chinese; render the listed short headings and essential labels accurately. Additional body copy should be concise, relevant Chinese explanatory phrases, not lorem ipsum, gibberish, decorative microtext or enormous paragraphs.
+
+GLOBAL CONTENT-DENSITY CONTRACT:
+Every cell must have a clear question/message, several meaningful content groups, specific subject illustrations or diagrams, and explanatory labels. Content-rich means multiple meaningful relationships, explanatory details and usable body content, not tiny text. Large background scenery, decorative shapes and oversized headings do not count as information. Research/analytical cells are high density: one main mechanism or evidence area plus 3–5 supporting information groups where the content warrants them, approximately 70–85% of the usable body area actively organized. Everyday/social/emotional cells are medium density: 4–6 substantive information groups or a coherent illustrated narrative with equally substantial short explanations, approximately 60–75% organized body area. These ranges are design targets, not pixel measurements. Maintain real breathing room and hierarchy; no cell may be sparse. Do NOT use a giant title, one picture and one sentence as a finished slide. Do NOT shrink body text to microscopic size: keep main titles about 5–7% and important body text about 2.5–3.5% of the individual slide height, with short labels nearby. If crowded, simplify phrases and prioritize the question; do not remove required content or replace it with tiny fake writing.
+
+SOURCE/FACT CONTRACT:
+These are fictional instructional STYLE EXAMPLES, not actual research findings, organizations, people, locations, products or events. Mark the four cells unobtrusively “风格示例”. Do not invent quantitative results, charts suggesting performance, real testimonials, dates, awards, institution logos, quotes, provenance or policy text. Where a quantitative graph is requested, show a clearly structured plot LOCATION with axes/variable labels and “真实数据待填”; no invented curves, bars, dots, numerical KPIs or significance. Qualitative sequence illustrations may be labeled “示意” and have no fabricated measured values. Original illustrated people, objects and scenes may be generated as style assets and must not impersonate user-provided real photos. Preserve the distinction between actual source facts, proposed plans and illustrations.
+
+Deliver a beautiful, coherent, legible four-slide contact sheet with distinct page relationships, NOT four copies of the same layout. Topic decides the style: never import Nature figure visuals into all themes. Keep each style's typography, color logic, line treatment, materials and icon vocabulary consistent across its own four cells. No stock watermarks, no OpenAI/model labels inside the image, no invented brands.
+
+STYLE ID: S01. THEME: 科研汇报. STYLE NAME: 科研汇报 · 证据与机制.
+Target information density: 高; preserve the global density and legibility contract.
+Palette: 纸白 #FAFBFC、藏蓝 #18334D、青绿 #238D91、浅紫 #D8D9EF，少量莓红 #A34F73.
+Art direction, typography and visual grammar: Nature figure 式科学叙事。细轮廓、具体模型结构、主机制配辅助诊断、直接标签、跨图语义一致；不是商务卡片。
+
+FOUR CELL CONTENTS AND COMPOSITIONS (read top-left, top-right, bottom-left, bottom-right):
+CELL 1 — exact main heading “研究问题与证据链”:
+上方问题句，下方左侧约六成是观测序列→特征矩阵→方法→预测的完整链，右侧上下排列现有边界和待检验问题。图中有输入输出、模型内部多级节点、图例与两处局部放大，所有波形注明示意。短标签：观测序列、特征表示、方法机制、输出预测、适用边界、待检验。
+
+CELL 2 — exact main heading “方法机制与验证设计”:
+横向主机制占中间五成，底部三个辅助面板分别为输入条件、受控比较、评价指标定义；训练与验证用分隔线区分，不画未知实验收益。关键模块内部画分支、编码向量与融合节点；箭头注明数据或状态，清楚标出研究方案。
+
+CELL 3 — exact main heading “对照与诊断如何相互支持”:
+左侧六成预留真实结果图区，内部标真实结果待填、条件、指标、单位；右侧为残差时域、相关结构、误差分组的三个示意结构小图，不能产生性能排名。底部列控制变量、重复单位和误差定义的文字位置，体现密集但清晰的科学面板。
+
+CELL 4 — exact main heading “贡献、边界与下一步”:
+用三个证据汇合模块指向中心研究判断，再分出贡献、适用边界、待验证计划三列；有小型方法示意、边界条件图和后续实验路径。避免仅三块大字和空白背景，每块具有对象图形、短说明与关系。
+
+Final QA before finishing: each of the four cells contains substantive content and clearly visible explanatory details; no empty title-only or thank-you page; each follows its prescribed relationship and all four share this theme's visual identity. Important text remains large enough within each individual cell. No fabricated quantitative evidence. Show all four cells completely with clean edges.

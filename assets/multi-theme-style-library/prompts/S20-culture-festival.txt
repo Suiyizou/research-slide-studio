@@ -1,0 +1,29 @@
+Use case: productivity-visual. Create ONE image that is a polished 2×2 contact sheet of FOUR DIFFERENT but stylistically coherent Chinese PowerPoint content-slide design references. Exactly four cells, no extra cells. All cells are landscape 16:9 slides with narrow equal gutters; the whole image should also be approximately 16:9. Render flat, straight-on digital slides, not laptop screens, printed papers, angled mockups, moodboards, app dashboards or a collage of overlapping slide sheets. No external decorative frame. Each cell must contain a finished content composition, NOT a blank template and NOT a sparse title cover. Use simplified Chinese; render the listed short headings and essential labels accurately. Additional body copy should be concise, relevant Chinese explanatory phrases, not lorem ipsum, gibberish, decorative microtext or enormous paragraphs.
+
+GLOBAL CONTENT-DENSITY CONTRACT:
+Every cell must have a clear question/message, several meaningful content groups, specific subject illustrations or diagrams, and explanatory labels. Content-rich means multiple meaningful relationships, explanatory details and usable body content, not tiny text. Large background scenery, decorative shapes and oversized headings do not count as information. Research/analytical cells are high density: one main mechanism or evidence area plus 3–5 supporting information groups where the content warrants them, approximately 70–85% of the usable body area actively organized. Everyday/social/emotional cells are medium density: 4–6 substantive information groups or a coherent illustrated narrative with equally substantial short explanations, approximately 60–75% organized body area. These ranges are design targets, not pixel measurements. Maintain real breathing room and hierarchy; no cell may be sparse. Do NOT use a giant title, one picture and one sentence as a finished slide. Do NOT shrink body text to microscopic size: keep main titles about 5–7% and important body text about 2.5–3.5% of the individual slide height, with short labels nearby. If crowded, simplify phrases and prioritize the question; do not remove required content or replace it with tiny fake writing.
+
+SOURCE/FACT CONTRACT:
+These are fictional instructional STYLE EXAMPLES, not actual research findings, organizations, people, locations, products or events. Mark the four cells unobtrusively “风格示例”. Do not invent quantitative results, charts suggesting performance, real testimonials, dates, awards, institution logos, quotes, provenance or policy text. Where a quantitative graph is requested, show a clearly structured plot LOCATION with axes/variable labels and “真实数据待填”; no invented curves, bars, dots, numerical KPIs or significance. Qualitative sequence illustrations may be labeled “示意” and have no fabricated measured values. Original illustrated people, objects and scenes may be generated as style assets and must not impersonate user-provided real photos. Preserve the distinction between actual source facts, proposed plans and illustrations.
+
+Deliver a beautiful, coherent, legible four-slide contact sheet with distinct page relationships, NOT four copies of the same layout. Topic decides the style: never import Nature figure visuals into all themes. Keep each style's typography, color logic, line treatment, materials and icon vocabulary consistent across its own four cells. No stock watermarks, no OpenAI/model labels inside the image, no invented brands.
+
+STYLE ID: S20. THEME: 文化节庆与传统艺术. STYLE NAME: 文化节庆 · 当代国风.
+Target information density: 中; preserve the global density and legibility contract.
+Palette: 米白 #F9EFD9、朱砂 #B94032、靛青 #314D69、雅金 #C6A05D.
+Art direction, typography and visual grammar: 当代国风编辑设计，剪纸、织物、版画与传统器物的原创图形，节奏活泼但精致；与山水水墨及博物馆图录明确区分。
+
+FOUR CELL CONTENTS AND COMPOSITIONS (read top-left, top-right, bottom-left, bottom-right):
+CELL 1 — exact main heading “让传统走进今天的生活”:
+节庆活动原创插画为中心，四周文化主题、活动形式、参与方式与体验目标四块实质信息，底部活动路径；不编造具体传统起源。
+
+CELL 2 — exact main heading “看见纹样与工艺的语言”:
+三种原创纹样与手工过程的小图，配材料、结构、用途和观看提示；侧边传统元素转译到当代设计的示意关系。
+
+CELL 3 — exact main heading “一场文化体验的游览路线”:
+四站活动地图：观赏、体验、交流、分享，每站有互动内容与完成物，右侧年龄友好、材料准备、参与节奏三组说明。
+
+CELL 4 — exact main heading “把文化体验带回日常”:
+三种生活应用场景和相应作品小图，旁边传承、创新、尊重来源三项原则与行动，底部后续活动计划；充实而非节庆贺卡。
+
+Final QA before finishing: each of the four cells contains substantive content and clearly visible explanatory details; no empty title-only or thank-you page; each follows its prescribed relationship and all four share this theme's visual identity. Important text remains large enough within each individual cell. No fabricated quantitative evidence. Show all four cells completely with clean edges.

@@ -1,0 +1,29 @@
+Use case: productivity-visual. Create ONE image that is a polished 2×2 contact sheet of FOUR DIFFERENT but stylistically coherent Chinese PowerPoint content-slide design references. Exactly four cells, no extra cells. All cells are landscape 16:9 slides with narrow equal gutters; the whole image should also be approximately 16:9. Render flat, straight-on digital slides, not laptop screens, printed papers, angled mockups, moodboards, app dashboards or a collage of overlapping slide sheets. No external decorative frame. Each cell must contain a finished content composition, NOT a blank template and NOT a sparse title cover. Use simplified Chinese; render the listed short headings and essential labels accurately. Additional body copy should be concise, relevant Chinese explanatory phrases, not lorem ipsum, gibberish, decorative microtext or enormous paragraphs.
+
+GLOBAL CONTENT-DENSITY CONTRACT:
+Every cell must have a clear question/message, several meaningful content groups, specific subject illustrations or diagrams, and explanatory labels. Content-rich means multiple meaningful relationships, explanatory details and usable body content, not tiny text. Large background scenery, decorative shapes and oversized headings do not count as information. Research/analytical cells are high density: one main mechanism or evidence area plus 3–5 supporting information groups where the content warrants them, approximately 70–85% of the usable body area actively organized. Everyday/social/emotional cells are medium density: 4–6 substantive information groups or a coherent illustrated narrative with equally substantial short explanations, approximately 60–75% organized body area. These ranges are design targets, not pixel measurements. Maintain real breathing room and hierarchy; no cell may be sparse. Do NOT use a giant title, one picture and one sentence as a finished slide. Do NOT shrink body text to microscopic size: keep main titles about 5–7% and important body text about 2.5–3.5% of the individual slide height, with short labels nearby. If crowded, simplify phrases and prioritize the question; do not remove required content or replace it with tiny fake writing.
+
+SOURCE/FACT CONTRACT:
+These are fictional instructional STYLE EXAMPLES, not actual research findings, organizations, people, locations, products or events. Mark the four cells unobtrusively “风格示例”. Do not invent quantitative results, charts suggesting performance, real testimonials, dates, awards, institution logos, quotes, provenance or policy text. Where a quantitative graph is requested, show a clearly structured plot LOCATION with axes/variable labels and “真实数据待填”; no invented curves, bars, dots, numerical KPIs or significance. Qualitative sequence illustrations may be labeled “示意” and have no fabricated measured values. Original illustrated people, objects and scenes may be generated as style assets and must not impersonate user-provided real photos. Preserve the distinction between actual source facts, proposed plans and illustrations.
+
+Deliver a beautiful, coherent, legible four-slide contact sheet with distinct page relationships, NOT four copies of the same layout. Topic decides the style: never import Nature figure visuals into all themes. Keep each style's typography, color logic, line treatment, materials and icon vocabulary consistent across its own four cells. No stock watermarks, no OpenAI/model labels inside the image, no invented brands.
+
+STYLE ID: S13. THEME: 课程教学与工作坊. STYLE NAME: 教学培训 · 明亮课堂.
+Target information density: 中高; preserve the global density and legibility contract.
+Palette: 奶白 #FFF9E9、墨蓝 #244765、向日黄 #EEC64B、浅蓝 #9DC9DC.
+Art direction, typography and visual grammar: 现代教育出版与剪纸式课堂插画，概念层级、例子、练习与反馈并存，友好清楚。避免幼稚装饰、贴满贴纸或只有口号。
+
+FOUR CELL CONTENTS AND COMPOSITIONS (read top-left, top-right, bottom-left, bottom-right):
+CELL 1 — exact main heading “今天要学会什么”:
+主题、四个学习目标及对应学习产物，右侧教师与学员场景插画，底部知识地图带先备知识和目标关联。
+
+CELL 2 — exact main heading “把复杂概念讲清楚”:
+中央概念模型有清楚结构和连接，左侧一个具体例子，右侧常见误区与正确理解，下方关键词与迁移问题。图文密度适合课堂。
+
+CELL 3 — exact main heading “一起完成一个练习”:
+任务情境插画配四步操作、分组角色、需要材料、完成标准，右边提示栏；任何数值仅为题目示例并清楚标记，不装真实成绩。
+
+CELL 4 — exact main heading “检验理解并带走方法”:
+三项自测问题、一个应用场景和一组方法清单，底部下一次实践路径；不把总结做成稀疏的谢谢观看页。
+
+Final QA before finishing: each of the four cells contains substantive content and clearly visible explanatory details; no empty title-only or thank-you page; each follows its prescribed relationship and all four share this theme's visual identity. Important text remains large enough within each individual cell. No fabricated quantitative evidence. Show all four cells completely with clean edges.

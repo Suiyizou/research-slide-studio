@@ -1,0 +1,29 @@
+Use case: productivity-visual. Create ONE image that is a polished 2×2 contact sheet of FOUR DIFFERENT but stylistically coherent Chinese PowerPoint content-slide design references. Exactly four cells, no extra cells. All cells are landscape 16:9 slides with narrow equal gutters; the whole image should also be approximately 16:9. Render flat, straight-on digital slides, not laptop screens, printed papers, angled mockups, moodboards, app dashboards or a collage of overlapping slide sheets. No external decorative frame. Each cell must contain a finished content composition, NOT a blank template and NOT a sparse title cover. Use simplified Chinese; render the listed short headings and essential labels accurately. Additional body copy should be concise, relevant Chinese explanatory phrases, not lorem ipsum, gibberish, decorative microtext or enormous paragraphs.
+
+GLOBAL CONTENT-DENSITY CONTRACT:
+Every cell must have a clear question/message, several meaningful content groups, specific subject illustrations or diagrams, and explanatory labels. Content-rich means multiple meaningful relationships, explanatory details and usable body content, not tiny text. Large background scenery, decorative shapes and oversized headings do not count as information. Research/analytical cells are high density: one main mechanism or evidence area plus 3–5 supporting information groups where the content warrants them, approximately 70–85% of the usable body area actively organized. Everyday/social/emotional cells are medium density: 4–6 substantive information groups or a coherent illustrated narrative with equally substantial short explanations, approximately 60–75% organized body area. These ranges are design targets, not pixel measurements. Maintain real breathing room and hierarchy; no cell may be sparse. Do NOT use a giant title, one picture and one sentence as a finished slide. Do NOT shrink body text to microscopic size: keep main titles about 5–7% and important body text about 2.5–3.5% of the individual slide height, with short labels nearby. If crowded, simplify phrases and prioritize the question; do not remove required content or replace it with tiny fake writing.
+
+SOURCE/FACT CONTRACT:
+These are fictional instructional STYLE EXAMPLES, not actual research findings, organizations, people, locations, products or events. Mark the four cells unobtrusively “风格示例”. Do not invent quantitative results, charts suggesting performance, real testimonials, dates, awards, institution logos, quotes, provenance or policy text. Where a quantitative graph is requested, show a clearly structured plot LOCATION with axes/variable labels and “真实数据待填”; no invented curves, bars, dots, numerical KPIs or significance. Qualitative sequence illustrations may be labeled “示意” and have no fabricated measured values. Original illustrated people, objects and scenes may be generated as style assets and must not impersonate user-provided real photos. Preserve the distinction between actual source facts, proposed plans and illustrations.
+
+Deliver a beautiful, coherent, legible four-slide contact sheet with distinct page relationships, NOT four copies of the same layout. Topic decides the style: never import Nature figure visuals into all themes. Keep each style's typography, color logic, line treatment, materials and icon vocabulary consistent across its own four cells. No stock watermarks, no OpenAI/model labels inside the image, no invented brands.
+
+STYLE ID: S08. THEME: 家庭情感. STYLE NAME: 家庭情感 · 温暖记忆.
+Target information density: 中; preserve the global density and legibility contract.
+Palette: 奶油白 #FFF5E9、陶土 #BD775C、鼠尾草 #8FA78B、暖褐 #624F45.
+Art direction, typography and visual grammar: 温暖家庭相册、纸质拼贴、手写风小注与清楚正文字体，原创日常人物插画和物件静物。情感自然、细节丰富，避免婚庆商业风和空洞大字。
+
+FOUR CELL CONTENTS AND COMPOSITIONS (read top-left, top-right, bottom-left, bottom-right):
+CELL 1 — exact main heading “平凡日子里的珍贵时刻”:
+三幅家庭日常插画：共餐、散步、阅读，分别配时间线索、事件短句和感受说明；左侧主题和家庭小故事，底部相互陪伴的三项细节。
+
+CELL 2 — exact main heading “一段共同走过的时光”:
+四个记忆节点穿过纸张胶片，每个节点含人物场景、事件与记忆物件；右栏列共同习惯与珍惜的变化。原创示意，不伪装用户真实照片或经历。
+
+CELL 3 — exact main heading “我们怎样更好地陪伴彼此”:
+中心餐桌或客厅插画，四周四个具体行动：倾听、共同劳动、记录、庆祝；每个有动作示意和短解释，底部一周陪伴计划框架。
+
+CELL 4 — exact main heading “把爱放进下一次行动”:
+左侧愿望清单和家庭小仪式，右侧共同计划的三步路径，下方有给彼此的话与日常行动两组完整信息；不做一张空白贺卡。
+
+Final QA before finishing: each of the four cells contains substantive content and clearly visible explanatory details; no empty title-only or thank-you page; each follows its prescribed relationship and all four share this theme's visual identity. Important text remains large enough within each individual cell. No fabricated quantitative evidence. Show all four cells completely with clean edges.

@@ -1,0 +1,26 @@
+Create a PREMIUM, highly detailed Chinese PowerPoint design reference contact sheet with EXACTLY 2×2 FOUR complete landscape 16:9 slides, all visible and straight-on. Native 3840×2160 pixels or highest native landscape resolution available; sharp crisp text and rich micro-structure. Do not upscale an existing bitmap or reuse its low-resolution pixels. Requesting 4K is an output goal; use the largest native canvas the image engine can actually produce.
+
+The attached first reference is our existing Nature-style literature mechanisms figure: learn its specific interior structures, thin precise scientific geometry, substantial information density, input-output relationships and small analytical insets. The attached second reference is a detailed overall workflow: learn multiscale objects, documented feedback routes, meaningful line styles and refinement. They are VISUAL DETAIL / INFORMATION DESIGN references only. Do not reproduce their forecasting content, model names, paper citations, dates, language mistakes or scientific claims. Build fresh original content specified below. Adopt nature-figure skill principles: one question per slide, evidence hierarchy determines visual hierarchy, one strong hero diagram where appropriate, supporting panels have distinct explanatory roles, consistent semantic palettes, explicit relationships, directly anchored short labels and beautifully executed object details. Professional composition, not a generic card template.
+
+VERY IMPORTANT IMPROVEMENT OVER PREVIOUS SET: replace equal-width colored boxes, repeated icon lists and large smiling-person illustrations with bespoke object-level graphics, meaningful multiscale detail, sectional/axonometric drawings, elegant interface diagrams, localized magnification insets, carefully routed connections and quiet annotation clusters. Typography, line-weight, color, detail, light/material treatment and hierarchy should feel designed together. Rich does NOT mean ornamental: every inset and fine structure must explain something. Avoid black-box decoration, unrelated molecular dots, fake charts, random texture, giant titles and empty poster design. No four cells sharing the same composition. Organize roughly 75–85% of the usable body as meaningful content, with real grouping whitespace; headings are compact, essential body type remains readable, about 2.5–3.5% of each individual slide's height. Use at least 4 meaningful information groups or equally rich coherent narrative per slide; main objects have visible internal content rather than empty containers. No microscopic fake text.
+
+All pages are fictional EDUCATIONAL DESIGN EXAMPLES, not research evidence, real projects or medical advice. Mark each cell unobtrusively “精绘方案 · 示意”. Never invent measured results, quantitative graphs, numerical trends, statistical significance, clinical findings, paper citations, product specifications or official brands. If requested, a true-data placeholder is SMALL and explicitly labeled; it must not dominate or make the page sparse. Graphical object relationships are illustrative for the supplied concept. Exact short headings and labels should be Chinese and legible. Final editable slides will be rebuilt downstream; prioritize clean structural boundaries, meaningful connections and well-positioned text anchors. No watermarks, no slide frames rendered as screens, no perspective-warped slide mockups.
+
+STYLE S09 · VERSION V2 · 团队协作 · 精密系统地图
+Information density: 中高.
+Palette and material: 暖白 #F7F8F6、墨蓝 #19384F、矿物蓝 #4488A6、青绿 #3D8D85、少量橙金 #D8A34C.
+Art direction: 高级信息设计与精密系统图，借鉴 Nature figure 的主次结构与局部证据，但表现真实协作系统。用任务网络、文件束、交接接口、角色轨迹、版本分支和细线标注，替代通用蓝色三栏和微笑人物头像。
+FOUR SPECIFIC SLIDES (top-left, top-right, bottom-left, bottom-right):
+SLIDE 1: exact heading “从共同目标到协作网络”.
+主视觉占六成，是多个角色轨道围绕共同交付物的复杂但清楚系统地图。中心交付物画成文档+原型+检查记录三层具体对象，外层需求、设计、开发、复核四个角色轨道有输入、处理、输出短标签，连接线上画清文档/决定/反馈的语义。右侧两个局部放大分别展示需求澄清和验收接口，底部三组短注说明目标、边界、成功标准。
+
+SLIDE 2: exact heading “交接发生在什么位置”.
+主图为有真实节点和文件类型的四泳道，阶段宽度按任务不同而变化，用门形交接点和检查符号表达进入下一阶段的条件。右上局部放大一份需求变更记录，右下冲突处理小回路，底部横向图例区分工作流、反馈、依赖三种线。每个泳道有可辨具体内容，不用条纹表格塞文字。
+
+SLIDE 3: exact heading “协作卡点怎样变成可修复问题”.
+左右为同一流程的两种接口状态，明确标流程示意而非绩效结果。左侧显示缺少输入定义、交付边界模糊、反馈绕行三个具体障碍；中间是放大镜式接口分析；右侧用可检查的输入、负责人、完成条件将接口修复。用三组详细小图解释，不用红叉绿勾空泛优劣对照。
+
+SLIDE 4: exact heading “把复盘接到下一次行动”.
+不是三列保留改变尝试清单。采用循环工作台：问题记录→团队解释→试行动作→复核→新版本，中间有版本树和交付物更新；边缘三个信息区域分别显示责任、依赖、检查点。下方三项行动各含触发条件和可观察完成标准，无虚构效率数字。
+
+Final check: show four genuinely different page relationships in one refined coherent style. Match the sophistication and explanatory fine detail of the provided Nature reference, while preserving this theme. Do not turn these pages into generic science clipart. Keep diagram details and Chinese type crisp at the largest native resolution.

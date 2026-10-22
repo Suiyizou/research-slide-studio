@@ -1,0 +1,26 @@
+Create a PREMIUM, highly detailed Chinese PowerPoint design reference contact sheet with EXACTLY 2×2 FOUR complete landscape 16:9 slides, all visible and straight-on. Native 3840×2160 pixels or highest native landscape resolution available; sharp crisp text and rich micro-structure. Do not upscale an existing bitmap or reuse its low-resolution pixels. Requesting 4K is an output goal; use the largest native canvas the image engine can actually produce.
+
+The attached first reference is our existing Nature-style literature mechanisms figure: learn its specific interior structures, thin precise scientific geometry, substantial information density, input-output relationships and small analytical insets. The attached second reference is a detailed overall workflow: learn multiscale objects, documented feedback routes, meaningful line styles and refinement. They are VISUAL DETAIL / INFORMATION DESIGN references only. Do not reproduce their forecasting content, model names, paper citations, dates, language mistakes or scientific claims. Build fresh original content specified below. Adopt nature-figure skill principles: one question per slide, evidence hierarchy determines visual hierarchy, one strong hero diagram where appropriate, supporting panels have distinct explanatory roles, consistent semantic palettes, explicit relationships, directly anchored short labels and beautifully executed object details. Professional composition, not a generic card template.
+
+VERY IMPORTANT IMPROVEMENT OVER PREVIOUS SET: replace equal-width colored boxes, repeated icon lists and large smiling-person illustrations with bespoke object-level graphics, meaningful multiscale detail, sectional/axonometric drawings, elegant interface diagrams, localized magnification insets, carefully routed connections and quiet annotation clusters. Typography, line-weight, color, detail, light/material treatment and hierarchy should feel designed together. Rich does NOT mean ornamental: every inset and fine structure must explain something. Avoid black-box decoration, unrelated molecular dots, fake charts, random texture, giant titles and empty poster design. No four cells sharing the same composition. Organize roughly 75–85% of the usable body as meaningful content, with real grouping whitespace; headings are compact, essential body type remains readable, about 2.5–3.5% of each individual slide's height. Use at least 4 meaningful information groups or equally rich coherent narrative per slide; main objects have visible internal content rather than empty containers. No microscopic fake text.
+
+All pages are fictional EDUCATIONAL DESIGN EXAMPLES, not research evidence, real projects or medical advice. Mark each cell unobtrusively “精绘方案 · 示意”. Never invent measured results, quantitative graphs, numerical trends, statistical significance, clinical findings, paper citations, product specifications or official brands. If requested, a true-data placeholder is SMALL and explicitly labeled; it must not dominate or make the page sparse. Graphical object relationships are illustrative for the supplied concept. Exact short headings and labels should be Chinese and legible. Final editable slides will be rebuilt downstream; prioritize clean structural boundaries, meaningful connections and well-positioned text anchors. No watermarks, no slide frames rendered as screens, no perspective-warped slide mockups.
+
+STYLE S14 · VERSION V2 · 医学科普 · 多尺度科学图解
+Information density: 高.
+Palette and material: 白底、深青 #174955、灰蓝 #7A9EAE、柔珊瑚 #D9A19A、淡紫 #B6AAC9；克制的层次和高对比标签.
+Art direction: Nature biomedical figure 式多尺度医学教育图：人体/器官/组织/细胞的对应层次，精确连接和局部放大，细腻实体插图配平面图解。全部是科学示意，不能装作显微照片或诊断影像，不编造病理或临床数据。
+FOUR SPECIFIC SLIDES (top-left, top-right, bottom-left, bottom-right):
+SLIDE 1: exact heading “从整体到局部，理解身体结构”.
+主视觉为原创人体结构轮廓向胸部器官、组织层次、细胞示意逐级放大，人体、器官、组织、细胞四级对应清楚，不能乱连不相关器官。右侧四组图文解释观察尺度、位置关系、结构层次、功能问题；下方三种阅读方法及信息边界。仅表现通用层次，不添加疾病机制或临床结论。
+
+SLIDE 2: exact heading “结构怎样支持功能”.
+以呼吸系统教育示意为主题，清楚画出鼻口到气管再分支进入肺的空气路径，旁边独立放大肺内末端结构的概念层次；标主路径、分支结构、局部放大，不生成病灶。右边将形状、连接、界面三种结构特点对应到理解问题，底部术语定义与未涵盖内容。不要用卡通胃部取代专业图元。
+
+SLIDE 3: exact heading “怎样辨认医学图中的证据类型”.
+左侧四个详细示例区：解剖示意、机制假设、真实影像位置、真实数据位置；真实影像和数据只做标明待来源输入的框，不生成假影像或曲线，总占位不超过20%。中间用证据标注结构连接到右侧来源、适用范围、未知三组核对信息；配放大图说明标签与图例怎样帮助阅读。
+
+SLIDE 4: exact heading “把疑问整理成可沟通的信息”.
+中心是日常观察→信息记录→问题整理→专业沟通的精密流程，内部有记录卡、时间线、症状描述字段示意但没有病例与诊断；右侧分开已知事实、主观感受、待专业判断三个层次，下方为来源与边界检查。人物最多小尺度情境点缀，核心是信息结构，不提供具体诊疗指令。
+
+Final check: show four genuinely different page relationships in one refined coherent style. Match the sophistication and explanatory fine detail of the provided Nature reference, while preserving this theme. Do not turn these pages into generic science clipart. Keep diagram details and Chinese type crisp at the largest native resolution.

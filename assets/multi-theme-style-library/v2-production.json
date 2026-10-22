@@ -1,0 +1,938 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-19",
+  "revision": "V2",
+  "explicit_skill": "nature-figure",
+  "route": "AI concept / slide-design schematic, not quantitative plotting",
+  "loaded_guidance": [
+    "SKILL.md",
+    "manifest.yaml",
+    "static/core/contract.md",
+    "static/core/stance.md",
+    "references/multipanel-evidence-architecture.md",
+    "references/nature-2026-observations.md",
+    "references/ai-graphical-abstract-workflow.md",
+    "references/openrouter-image-generation.md"
+  ],
+  "reference_images": [
+    "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+    "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+  ],
+  "resolution_probe": {
+    "style_id": "S07",
+    "requested": "3840x2160",
+    "actual": [
+      1672,
+      941
+    ],
+    "image_path": "originals/S07-student-research-notebook-v2-overview.png",
+    "prompt_path": "prompts/S07-student-research-notebook-v2.txt",
+    "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-db5b10bd-ba30-4ef2-b6bd-81a5bdfa99d4.png",
+    "adopted_as_final_pages": false,
+    "file_metadata": {
+      "width": 1672,
+      "height": 941,
+      "bytes": 2141737,
+      "sha256": "7462f97bc79bb31afd857f69208ddcf6c1cdf5c1a30359d7f58d7a0f92b9797a"
+    }
+  },
+  "model": "未披露",
+  "upscaled": false,
+  "style_count": 6,
+  "selected_pages": 24,
+  "styles": [
+    {
+      "id": "S07",
+      "name": "小组课题 · 科学探究精绘",
+      "density": "高",
+      "palette": "纯白、深海军蓝、矿物青绿、淡紫灰，少量柔金用于实验变量；去掉儿童漫画和厚重贴纸",
+      "design": "大学课题答辩的精密研究图，承接 Nature figure 的细结构、主视觉、放大框和有语义的箭头；轻量三维实验装置配平面科学图元，科学叙事而不是模板卡片。",
+      "design_brief_path": "prompts/S07-student-research-notebook-v2.txt",
+      "review_notes": "比 V1 增加装置细节、控制条件与证据层级；第三页已修复跨页对象。生成器仍补充了表观/生理/分子层示意及图形，不代表实际实验或已经取得的贡献，复用须按真实课题重写。",
+      "pages": [
+        {
+          "id": "S07-V2-P1",
+          "style_id": "S07",
+          "page": 1,
+          "title": "从观察到可检验的问题",
+          "prompt_path": "prompts/S07-student-research-notebook-v2-p1.txt",
+          "image_path": "originals/S07-student-research-notebook-v2-p1.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-b85a0011-1135-4458-aa52-e1c8661f47db.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加装置细节、控制条件与证据层级；第三页已修复跨页对象。生成器仍补充了表观/生理/分子层示意及图形，不代表实际实验或已经取得的贡献，复用须按真实课题重写。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2065757,
+            "sha256": "1019b316bb07e3374a74e88139685a26e15b98fcbb2247ffda9ab64ddb6a7c21"
+          }
+        },
+        {
+          "id": "S07-V2-P2",
+          "style_id": "S07",
+          "page": 2,
+          "title": "方法路径与信息如何流动",
+          "prompt_path": "prompts/S07-student-research-notebook-v2-p2.txt",
+          "image_path": "originals/S07-student-research-notebook-v2-p2.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-e691e6c3-08b1-4266-aaf8-5f70fbed4ad6.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加装置细节、控制条件与证据层级；第三页已修复跨页对象。生成器仍补充了表观/生理/分子层示意及图形，不代表实际实验或已经取得的贡献，复用须按真实课题重写。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 940,
+            "bytes": 2056376,
+            "sha256": "ceed3791242d6b71cb4827b3120437887317b06f31c13b769f3111410a383a22"
+          }
+        },
+        {
+          "id": "S07-V2-P3",
+          "style_id": "S07",
+          "page": 3,
+          "title": "让证据与解释各司其职",
+          "prompt_path": "prompts/S07-student-research-notebook-v2-p3.txt",
+          "image_path": "originals/S07-student-research-notebook-v2-p3.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-a2b39b6d-a459-4ece-8d87-31cd620a1579.png",
+          "status": "generated",
+          "rejected_attempt": {
+            "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-af74e108-0e36-4d72-8ed5-759e985ec3a0.png",
+            "image_path": "candidates/S07-student-research-notebook-v2-p3-aquarium-rejected.png",
+            "reason": "生成器将植物课题改为水槽场景，跨页主题不一致",
+            "file_metadata": {
+              "width": 1672,
+              "height": 941,
+              "bytes": 2131421,
+              "sha256": "73e4784dcaebd7cc15dde971e49cb9da893a49642168bd5067b089992dbd7acf"
+            }
+          },
+          "correction_prompt_path": "prompts/S07-student-research-notebook-v2-p3-correction.txt",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加装置细节、控制条件与证据层级；第三页已修复跨页对象。生成器仍补充了表观/生理/分子层示意及图形，不代表实际实验或已经取得的贡献，复用须按真实课题重写。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2040454,
+            "sha256": "72a93a80e81345626587a257e569e25d651049de990d2d3709bdb40dce50d342"
+          }
+        },
+        {
+          "id": "S07-V2-P4",
+          "style_id": "S07",
+          "page": 4,
+          "title": "研究贡献与下一轮问题",
+          "prompt_path": "prompts/S07-student-research-notebook-v2-p4.txt",
+          "image_path": "originals/S07-student-research-notebook-v2-p4.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-06f794bf-e544-4ee6-b547-55e37f4533bf.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加装置细节、控制条件与证据层级；第三页已修复跨页对象。生成器仍补充了表观/生理/分子层示意及图形，不代表实际实验或已经取得的贡献，复用须按真实课题重写。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2108537,
+            "sha256": "b883845377db749b4677b4dc489ec60bf967cb0d5df9f8c233cd5c2e2a416a10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "name": "团队协作 · 精密系统地图",
+      "density": "中高",
+      "palette": "暖白 #F7F8F6、墨蓝 #19384F、矿物蓝 #4488A6、青绿 #3D8D85、少量橙金 #D8A34C",
+      "design": "高级信息设计与精密系统图，借鉴 Nature figure 的主次结构与局部证据，但表现真实协作系统。用任务网络、文件束、交接接口、角色轨迹、版本分支和细线标注，替代通用蓝色三栏和微笑人物头像。",
+      "design_brief_path": "prompts/S09-team-collaboration-v2.txt",
+      "review_notes": "比 V1 增加角色输入输出、文档内部结构、门槛条件、反馈与版本关系；示例角色与流程按实际团队替换。",
+      "pages": [
+        {
+          "id": "S09-V2-P1",
+          "style_id": "S09",
+          "page": 1,
+          "title": "从共同目标到协作网络",
+          "prompt_path": "prompts/S09-team-collaboration-v2-p1.txt",
+          "image_path": "originals/S09-team-collaboration-v2-p1.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-de99cf4c-3e07-41ef-83c2-75dafdb65a0a.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加角色输入输出、文档内部结构、门槛条件、反馈与版本关系；示例角色与流程按实际团队替换。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 1968905,
+            "sha256": "e2971b508a90dd3bc5db443f18a45b68c3d3706912203ffed11052b2845825f2"
+          }
+        },
+        {
+          "id": "S09-V2-P2",
+          "style_id": "S09",
+          "page": 2,
+          "title": "交接发生在什么位置",
+          "prompt_path": "prompts/S09-team-collaboration-v2-p2.txt",
+          "image_path": "originals/S09-team-collaboration-v2-p2.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-47d30a0d-1869-41ae-b2e3-134cdf33b1f3.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加角色输入输出、文档内部结构、门槛条件、反馈与版本关系；示例角色与流程按实际团队替换。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 1735977,
+            "sha256": "8679f24390e825a0b38f7d479a430766f925f68e679329506f96d7f66506f373"
+          }
+        },
+        {
+          "id": "S09-V2-P3",
+          "style_id": "S09",
+          "page": 3,
+          "title": "协作卡点怎样变成可修复问题",
+          "prompt_path": "prompts/S09-team-collaboration-v2-p3.txt",
+          "image_path": "originals/S09-team-collaboration-v2-p3.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-820bf33f-d367-4c15-8b4f-382c10af375d.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加角色输入输出、文档内部结构、门槛条件、反馈与版本关系；示例角色与流程按实际团队替换。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 1960680,
+            "sha256": "9dc253455b4d0cfc8dc1aa5d7f94937154a3e7ec8eafd5c340dbabb6e654983a"
+          }
+        },
+        {
+          "id": "S09-V2-P4",
+          "style_id": "S09",
+          "page": 4,
+          "title": "把复盘接到下一次行动",
+          "prompt_path": "prompts/S09-team-collaboration-v2-p4.txt",
+          "image_path": "originals/S09-team-collaboration-v2-p4.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-8fc189c2-c5ff-4a70-98fe-15664ae41889.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加角色输入输出、文档内部结构、门槛条件、反馈与版本关系；示例角色与流程按实际团队替换。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 1924161,
+            "sha256": "ec7d70489083dc51ea349a200ccae5886e79278aa6f26ccee65f3dd201f464ce"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "name": "科技产品 · 精密工业展陈",
+      "density": "中高",
+      "palette": "深石墨 #0B1723、冷白、钛银、冰青 #6AD9DC、少量琥珀用于交互状态，避免廉价满屏霓虹",
+      "design": "工业设计评审与高级硬件展陈结合：原创概念设备的真实材质、精密爆炸图、光学层/声学层/电路层/结构层、部件局部放大、硬件细导线与清楚标注。向 Nature 科学插图学习剖切解释和多尺度，而不把产品页做成学术论文。",
+      "design_brief_path": "prompts/S10-technology-product-expo-v2.txt",
+      "review_notes": "比 V1 增加光学/声学/散热局部、爆炸层次与供电/信号路径；设备和电路完全为概念设计，不作为实际工程结构或性能依据。",
+      "pages": [
+        {
+          "id": "S10-V2-P1",
+          "style_id": "S10",
+          "page": 1,
+          "title": "一件产品，多个层次的设计",
+          "prompt_path": "prompts/S10-technology-product-expo-v2-p1.txt",
+          "image_path": "originals/S10-technology-product-expo-v2-p1.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-920a17c7-9956-4fde-9540-86a080a08f16.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\multi-theme-style-library\\originals\\S10-technology-product-expo.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加光学/声学/散热局部、爆炸层次与供电/信号路径；设备和电路完全为概念设计，不作为实际工程结构或性能依据。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2509553,
+            "sha256": "d6ce884e0f8daa51798cd3b978c253d2dbf7df7455d3bac1b3bdfe019458f651"
+          }
+        },
+        {
+          "id": "S10-V2-P2",
+          "style_id": "S10",
+          "page": 2,
+          "title": "把外壳打开，理解模块协同",
+          "prompt_path": "prompts/S10-technology-product-expo-v2-p2.txt",
+          "image_path": "originals/S10-technology-product-expo-v2-p2.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-60acf754-2f00-482a-a80c-e1d6d5ce33fb.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\multi-theme-style-library\\originals\\S10-technology-product-expo.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加光学/声学/散热局部、爆炸层次与供电/信号路径；设备和电路完全为概念设计，不作为实际工程结构或性能依据。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2303831,
+            "sha256": "00e807904c96c8464494048f4f75978f33109d84ee0f9d22a0ddec4436e9921c"
+          }
+        },
+        {
+          "id": "S10-V2-P3",
+          "style_id": "S10",
+          "page": 3,
+          "title": "体验不是功能清单",
+          "prompt_path": "prompts/S10-technology-product-expo-v2-p3.txt",
+          "image_path": "originals/S10-technology-product-expo-v2-p3.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-7a0844c9-081f-4594-8090-06c7bf973949.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\multi-theme-style-library\\originals\\S10-technology-product-expo.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加光学/声学/散热局部、爆炸层次与供电/信号路径；设备和电路完全为概念设计，不作为实际工程结构或性能依据。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2274004,
+            "sha256": "5d1298a7301567ff31fabecfe7dbebf82ad372edbd201e0fd7f2edb168e11d65"
+          }
+        },
+        {
+          "id": "S10-V2-P4",
+          "style_id": "S10",
+          "page": 4,
+          "title": "让展台讲清产品",
+          "prompt_path": "prompts/S10-technology-product-expo-v2-p4.txt",
+          "image_path": "originals/S10-technology-product-expo-v2-p4.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-0d3b8550-e847-4caa-829b-5bb39530799f.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\multi-theme-style-library\\originals\\S10-technology-product-expo.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加光学/声学/散热局部、爆炸层次与供电/信号路径；设备和电路完全为概念设计，不作为实际工程结构或性能依据。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2432263,
+            "sha256": "dccb0627361850d2317a1b3af6592541ec745c54ece7025cab0ffeee9e31875a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "name": "经营复盘 · 驱动与决策图谱",
+      "density": "高",
+      "palette": "暖白、墨蓝 #18354E、紫灰 #8D8BA7、钢蓝 #6F9FB9、少量铜橙 #C78851",
+      "design": "高端经营分析编辑设计加精密系统图。采用业务链路、因素拆解、证据归因、决策路径的细图元；避免俗套KPI四卡、等宽柱状卡片与大面积空白图占位。没有经营数据就不画虚构曲线。",
+      "design_brief_path": "prompts/S12-business-review-v2.txt",
+      "review_notes": "比 V1 充实业务链路、假设树、证据检查门与资源依赖；生成器在少量预留区域仍画了示意曲线，必须换成真实数据，不能当已验证结论。",
+      "pages": [
+        {
+          "id": "S12-V2-P1",
+          "style_id": "S12",
+          "page": 1,
+          "title": "从业务现象进入驱动结构",
+          "prompt_path": "prompts/S12-business-review-v2-p1.txt",
+          "image_path": "originals/S12-business-review-v2-p1.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-cf4be172-b0a4-458c-826d-f6b022bc8533.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 充实业务链路、假设树、证据检查门与资源依赖；生成器在少量预留区域仍画了示意曲线，必须换成真实数据，不能当已验证结论。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 1820055,
+            "sha256": "5428c760effe0b86a68a6d5b3fcd39abc634b8db79c0eb0125d4e0fd5eeb7af7"
+          }
+        },
+        {
+          "id": "S12-V2-P2",
+          "style_id": "S12",
+          "page": 2,
+          "title": "把变化拆成可以核对的关系",
+          "prompt_path": "prompts/S12-business-review-v2-p2.txt",
+          "image_path": "originals/S12-business-review-v2-p2.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-3aa99086-6797-4444-93ed-cb3700e38d99.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 充实业务链路、假设树、证据检查门与资源依赖；生成器在少量预留区域仍画了示意曲线，必须换成真实数据，不能当已验证结论。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2025970,
+            "sha256": "4374307b21ec989241f35e6d355bf51d6f8d75ebd2ce9e0a92f7d6ed2b9af269"
+          }
+        },
+        {
+          "id": "S12-V2-P3",
+          "style_id": "S12",
+          "page": 3,
+          "title": "让证据通向决策",
+          "prompt_path": "prompts/S12-business-review-v2-p3.txt",
+          "image_path": "originals/S12-business-review-v2-p3.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-f2f6f640-b579-45be-ac21-8eaaac0974ed.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 充实业务链路、假设树、证据检查门与资源依赖；生成器在少量预留区域仍画了示意曲线，必须换成真实数据，不能当已验证结论。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 1900892,
+            "sha256": "918455ac0cac11e5ec42a0d11bf77eb06a2de80598f91015bc915a4cac2545e8"
+          }
+        },
+        {
+          "id": "S12-V2-P4",
+          "style_id": "S12",
+          "page": 4,
+          "title": "下一周期如何落地",
+          "prompt_path": "prompts/S12-business-review-v2-p4.txt",
+          "image_path": "originals/S12-business-review-v2-p4.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-651185c8-a997-493c-9017-62cee8f363a4.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 充实业务链路、假设树、证据检查门与资源依赖；生成器在少量预留区域仍画了示意曲线，必须换成真实数据，不能当已验证结论。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 1966433,
+            "sha256": "9b94ccf993b591083f33fa856944236a7d7ccfff1e77be7c835da2476f69acf7"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S13",
+      "name": "教学培训 · 知识建构图解",
+      "density": "中高",
+      "palette": "象牙白、深靛蓝 #263D70、雾青绿 #67A49B、暖金 #D7B34C、淡杏，仅少量强调",
+      "design": "高品质科学教育出版插图与现代课堂信息设计，清楚的知识层级、具体例子、局部放大、任务材料与反馈。适合大学或成人培训，去掉幼儿卡通、贴纸、通用老师头像和蓝黄模板方框。",
+      "design_brief_path": "prompts/S13-education-workshop-v2.txt",
+      "review_notes": "比 V1 增加知识层级、具体展览场景、任务材料与迁移关系；最后一页生成了力学与流动类比，只作教学设计例，科学适用边界与箭头需据本课内容核对。",
+      "pages": [
+        {
+          "id": "S13-V2-P1",
+          "style_id": "S13",
+          "page": 1,
+          "title": "一节课如何搭建知识结构",
+          "prompt_path": "prompts/S13-education-workshop-v2-p1.txt",
+          "image_path": "originals/S13-education-workshop-v2-p1.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-74d3e645-33e2-4409-bbde-aa32d5129901.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加知识层级、具体展览场景、任务材料与迁移关系；最后一页生成了力学与流动类比，只作教学设计例，科学适用边界与箭头需据本课内容核对。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2058341,
+            "sha256": "b820d8f61f0ef98d53492af5e9c74955a325501019db9461e1bd206394dc12cb"
+          }
+        },
+        {
+          "id": "S13-V2-P2",
+          "style_id": "S13",
+          "page": 2,
+          "title": "从一个例子看懂方法",
+          "prompt_path": "prompts/S13-education-workshop-v2-p2.txt",
+          "image_path": "originals/S13-education-workshop-v2-p2.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-aab63d12-6d89-436a-abc5-e2e2c10779e1.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加知识层级、具体展览场景、任务材料与迁移关系；最后一页生成了力学与流动类比，只作教学设计例，科学适用边界与箭头需据本课内容核对。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 940,
+            "bytes": 2279350,
+            "sha256": "fb4269c1c6ab64fa5bc0cf38c980277a840823dd298ae59445f1fa04c6e22c6f"
+          }
+        },
+        {
+          "id": "S13-V2-P3",
+          "style_id": "S13",
+          "page": 3,
+          "title": "让练习产生可见的思考",
+          "prompt_path": "prompts/S13-education-workshop-v2-p3.txt",
+          "image_path": "originals/S13-education-workshop-v2-p3.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-8367405d-ab6d-4ef6-9033-3cdc72d46382.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加知识层级、具体展览场景、任务材料与迁移关系；最后一页生成了力学与流动类比，只作教学设计例，科学适用边界与箭头需据本课内容核对。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2072234,
+            "sha256": "8348855e988e9b12b72c95662b759ff276dff6f5965922a949094d95d5d96f1d"
+          }
+        },
+        {
+          "id": "S13-V2-P4",
+          "style_id": "S13",
+          "page": 4,
+          "title": "检验理解并完成迁移",
+          "prompt_path": "prompts/S13-education-workshop-v2-p4.txt",
+          "image_path": "originals/S13-education-workshop-v2-p4.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-6f0b7641-0a2a-4db5-a21d-2d847b6d36ab.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加知识层级、具体展览场景、任务材料与迁移关系；最后一页生成了力学与流动类比，只作教学设计例，科学适用边界与箭头需据本课内容核对。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 1990449,
+            "sha256": "5e62de502cb36948a400aeb2ca4dbc795eabfca36ffb1b627844c45b1d9b27fb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S14",
+      "name": "医学科普 · 多尺度科学图解",
+      "density": "高",
+      "palette": "白底、深青 #174955、灰蓝 #7A9EAE、柔珊瑚 #D9A19A、淡紫 #B6AAC9；克制的层次和高对比标签",
+      "design": "Nature biomedical figure 式多尺度医学教育图：人体/器官/组织/细胞的对应层次，精确连接和局部放大，细腻实体插图配平面图解。全部是科学示意，不能装作显微照片或诊断影像，不编造病理或临床数据。",
+      "design_brief_path": "prompts/S14-medical-education-v2.txt",
+      "review_notes": "比 V1 增加多尺度解剖、结构放大与证据类型；生成器补充的医学机制、器官结构和细胞标注未经逐项权威来源验证，不能直接作医学科普定稿。",
+      "pages": [
+        {
+          "id": "S14-V2-P1",
+          "style_id": "S14",
+          "page": 1,
+          "title": "从整体到局部，理解身体结构",
+          "prompt_path": "prompts/S14-medical-education-v2-p1.txt",
+          "image_path": "originals/S14-medical-education-v2-p1.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-367a4663-f46d-458e-adc4-c649e384d315.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加多尺度解剖、结构放大与证据类型；生成器补充的医学机制、器官结构和细胞标注未经逐项权威来源验证，不能直接作医学科普定稿。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2344391,
+            "sha256": "697845ecde5e5fbb5ef3ba07837b123e1606f2fd58fb7637660cce6d4e7297f9"
+          }
+        },
+        {
+          "id": "S14-V2-P2",
+          "style_id": "S14",
+          "page": 2,
+          "title": "结构怎样支持功能",
+          "prompt_path": "prompts/S14-medical-education-v2-p2.txt",
+          "image_path": "originals/S14-medical-education-v2-p2.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-ef537870-b635-4099-9083-9e2bd9fe3620.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加多尺度解剖、结构放大与证据类型；生成器补充的医学机制、器官结构和细胞标注未经逐项权威来源验证，不能直接作医学科普定稿。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2369683,
+            "sha256": "8d717fb4c651229e1546d0b9a103568b782b6076018410b9e884a22cf32ca232"
+          }
+        },
+        {
+          "id": "S14-V2-P3",
+          "style_id": "S14",
+          "page": 3,
+          "title": "怎样辨认医学图中的证据类型",
+          "prompt_path": "prompts/S14-medical-education-v2-p3.txt",
+          "image_path": "originals/S14-medical-education-v2-p3.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-4fcd4b9c-5516-4051-87a5-c4fbb6ff10b4.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加多尺度解剖、结构放大与证据类型；生成器补充的医学机制、器官结构和细胞标注未经逐项权威来源验证，不能直接作医学科普定稿。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2091791,
+            "sha256": "8978a59c3d7d04880f23484f251a5c9877cf66e4f57a4246e93d59cef07f0763"
+          }
+        },
+        {
+          "id": "S14-V2-P4",
+          "style_id": "S14",
+          "page": 4,
+          "title": "把疑问整理成可沟通的信息",
+          "prompt_path": "prompts/S14-medical-education-v2-p4.txt",
+          "image_path": "originals/S14-medical-education-v2-p4.png",
+          "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-16b340ed-a5a0-4618-9c01-24aa69973535.png",
+          "status": "generated",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "actual_model": "未披露",
+            "native_single_page": true,
+            "requested_size": "highest available native landscape",
+            "upscaled": false,
+            "reference_images": [
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+              "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+            ]
+          },
+          "visual_review": {
+            "inspected": true,
+            "scope": "style / density / legibility / composition",
+            "content_facts_verified": false,
+            "notes": "比 V1 增加多尺度解剖、结构放大与证据类型；生成器补充的医学机制、器官结构和细胞标注未经逐项权威来源验证，不能直接作医学科普定稿。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2090462,
+            "sha256": "2e83d5d4ba8a46e356c40e1627f09fe29a29e2c50b086d1f84aaa1ae55c4910d"
+          }
+        }
+      ]
+    }
+  ],
+  "pixel_comparison": {
+    "v1_contact_sheet_typical": [
+      1672,
+      941
+    ],
+    "v1_per_page_approx": [
+      836,
+      470
+    ],
+    "v2_native_page_dimensions": [
+      [
+        1672,
+        940
+      ],
+      [
+        1672,
+        941
+      ]
+    ],
+    "per_page_pixel_ratio_approx": 4,
+    "native_4k_achieved": false,
+    "resampling_used": false
+  }
+}

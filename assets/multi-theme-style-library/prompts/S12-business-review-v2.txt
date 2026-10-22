@@ -1,0 +1,26 @@
+Create a PREMIUM, highly detailed Chinese PowerPoint design reference contact sheet with EXACTLY 2×2 FOUR complete landscape 16:9 slides, all visible and straight-on. Native 3840×2160 pixels or highest native landscape resolution available; sharp crisp text and rich micro-structure. Do not upscale an existing bitmap or reuse its low-resolution pixels. Requesting 4K is an output goal; use the largest native canvas the image engine can actually produce.
+
+The attached first reference is our existing Nature-style literature mechanisms figure: learn its specific interior structures, thin precise scientific geometry, substantial information density, input-output relationships and small analytical insets. The attached second reference is a detailed overall workflow: learn multiscale objects, documented feedback routes, meaningful line styles and refinement. They are VISUAL DETAIL / INFORMATION DESIGN references only. Do not reproduce their forecasting content, model names, paper citations, dates, language mistakes or scientific claims. Build fresh original content specified below. Adopt nature-figure skill principles: one question per slide, evidence hierarchy determines visual hierarchy, one strong hero diagram where appropriate, supporting panels have distinct explanatory roles, consistent semantic palettes, explicit relationships, directly anchored short labels and beautifully executed object details. Professional composition, not a generic card template.
+
+VERY IMPORTANT IMPROVEMENT OVER PREVIOUS SET: replace equal-width colored boxes, repeated icon lists and large smiling-person illustrations with bespoke object-level graphics, meaningful multiscale detail, sectional/axonometric drawings, elegant interface diagrams, localized magnification insets, carefully routed connections and quiet annotation clusters. Typography, line-weight, color, detail, light/material treatment and hierarchy should feel designed together. Rich does NOT mean ornamental: every inset and fine structure must explain something. Avoid black-box decoration, unrelated molecular dots, fake charts, random texture, giant titles and empty poster design. No four cells sharing the same composition. Organize roughly 75–85% of the usable body as meaningful content, with real grouping whitespace; headings are compact, essential body type remains readable, about 2.5–3.5% of each individual slide's height. Use at least 4 meaningful information groups or equally rich coherent narrative per slide; main objects have visible internal content rather than empty containers. No microscopic fake text.
+
+All pages are fictional EDUCATIONAL DESIGN EXAMPLES, not research evidence, real projects or medical advice. Mark each cell unobtrusively “精绘方案 · 示意”. Never invent measured results, quantitative graphs, numerical trends, statistical significance, clinical findings, paper citations, product specifications or official brands. If requested, a true-data placeholder is SMALL and explicitly labeled; it must not dominate or make the page sparse. Graphical object relationships are illustrative for the supplied concept. Exact short headings and labels should be Chinese and legible. Final editable slides will be rebuilt downstream; prioritize clean structural boundaries, meaningful connections and well-positioned text anchors. No watermarks, no slide frames rendered as screens, no perspective-warped slide mockups.
+
+STYLE S12 · VERSION V2 · 经营复盘 · 驱动与决策图谱
+Information density: 高.
+Palette and material: 暖白、墨蓝 #18354E、紫灰 #8D8BA7、钢蓝 #6F9FB9、少量铜橙 #C78851.
+Art direction: 高端经营分析编辑设计加精密系统图。采用业务链路、因素拆解、证据归因、决策路径的细图元；避免俗套KPI四卡、等宽柱状卡片与大面积空白图占位。没有经营数据就不画虚构曲线。
+FOUR SPECIFIC SLIDES (top-left, top-right, bottom-left, bottom-right):
+SLIDE 1: exact heading “从业务现象进入驱动结构”.
+中央主视觉是从客户需求到交付、复购的业务链路，内部包含订单、触点、交付单、反馈档案等具体对象；上方三组观察短句与链路对应，右侧影响因素树有需求、转化、交付、成本四支，每支两个具体变量名。底部口径、证据、待确认三组信息，不能编造财务结果。
+
+SLIDE 2: exact heading “把变化拆成可以核对的关系”.
+左侧六成是不等宽分支的驱动树加局部放大，明确关系是待核对假设，不画因果结论。右侧上部是证据来源地图：业务记录、客户反馈、过程日志、成本分类；下部是归因边界与混杂因素。底部以分层带区分观察、解释、决策，各有短注。
+
+SLIDE 3: exact heading “让证据通向决策”.
+主视觉是多源记录汇入证据检查门，再分支到产品、运营、市场三种行动路径；每条有责任角色、依赖、观察方式和可能风险。仅留一个小型真实数据图区占15%，清楚写真实数据待填，剩余画面用具体分析和行动机制填实，禁止伪造柱高、排名或百分比。
+
+SLIDE 4: exact heading “下一周期如何落地”.
+不做常规横向季度表。画出上下两层推进系统：上层战略工作流与关键决策门，下层产品、交付、运营三个协作轨道，中间依赖和交付物连线对应；右边是资源取舍和风险触发小树。阶段不填编造日期，图元与文字在投影下清楚。
+
+Final check: show four genuinely different page relationships in one refined coherent style. Match the sophistication and explanatory fine detail of the provided Nature reference, while preserving this theme. Do not turn these pages into generic science clipart. Keep diagram details and Chinese type crisp at the largest native resolution.

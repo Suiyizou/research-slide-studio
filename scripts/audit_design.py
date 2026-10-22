@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 
-def audit(manifest_path):
+def audit(manifest_path, pptx_path=None):
     manifest_path = Path(manifest_path).resolve()
     base = manifest_path.parent
     errors = []
@@ -107,6 +107,10 @@ def audit(manifest_path):
                 file_for(row.get(key), f'{context} {key}')
             for key in ('comparison', 'overlay'):
                 image_for(row.get(key), f'{context} {key}')
+            if pptx_path:
+                file_for(row.get('objects'), f'{context} objects')
+                for key in ('pptx_comparison', 'pptx_overlay'):
+                    image_for(row.get(key), f'{context} {key}')
             if row.get('reviewed') is not True:
                 errors.append(f'{context}: inspect the comparison and overlay, then set reviewed=true.')
             svg_file = file_for(row.get('svg'), f'{context} svg')
@@ -138,8 +142,18 @@ def audit(manifest_path):
     target = math.ceil(total * 0.5)
     if covered < target:
         errors.append(f'Coverage {covered}/{total}; provide at least {target} distinct page references.')
+    pptx_result = None
+    if pptx_path:
+        try:
+            from audit_pptx import audit as audit_presentation
+            pptx_result = audit_presentation(pptx_path, manifest_path, require_object_map=True)
+            errors.extend(pptx_result['errors'])
+        except Exception as exc:
+            errors.append(f'Cannot audit final PPTX: {exc}')
     return {
         'ok': not errors,
+        'scope': 'final_pptx_and_design' if pptx_path else 'design_sources_only',
+        'final_pptx_checked': pptx_result is not None,
         'total_slides': total,
         'reference_target': target,
         'reference_pages': covered,
@@ -152,8 +166,9 @@ def audit(manifest_path):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('manifest', help='Path to completed design-plan.json')
+    parser.add_argument('--pptx', help='Final PPTX; required for final delivery acceptance')
     args = parser.parse_args()
-    result = audit(args.manifest)
+    result = audit(args.manifest, args.pptx)
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0 if result['ok'] else 1
 

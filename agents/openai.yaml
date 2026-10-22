@@ -1,5 +1,5 @@
 interface:
   display_name: "科研演示设计"
-  short_description: "先生成约半数页面的 Nature 科研参考，再一比一矢量重建与章节导航验收"
+  short_description: "先生成精修科研参考，再逐对象矢量重绘、原生文字排版与 PPT 验收"
   brand_color: "#38385B"
-  default_prompt: "使用 $research-slide-studio，先生成四套总览，再为约 50% 总页数生成各自主题的 Nature figure 参考图，按参考一比一重建真实 SVG 与独立文字，采用醒目目录和白底蓝横幅章节页，并完成 PowerPoint 实际渲染验收。"
+  default_prompt: "使用 $research-slide-studio，参照认可原图生成四套总览及约半数页面的精修 Nature figure 内容参考，再按语义对象保真重绘为原生可编辑 PPT，文字独立对准，采用醒目目录和章节衔接，逐页检查参考质量、重绘边缘与实际编辑效果。"

@@ -1,0 +1,2372 @@
+{
+  "schema_version": 2,
+  "created_date": "2026-10-19",
+  "title": "20 种主题 PPT 风格参考库",
+  "style_count": 20,
+  "total_slide_references": 104,
+  "requested_model": "GPT-Image-2.5",
+  "actual_model": "未披露",
+  "tool": "image_gen.imagegen",
+  "authorization": "用户明确同意使用内置生图，并将具体模型标为未披露",
+  "artifact_role": "生成式视觉参考，非可编辑PPT成稿，非事实或定量证据",
+  "density_contract": {
+    "high": "科研/分析：高信息密度，主体机制或证据加必要辅助信息；正文清楚",
+    "medium_high": "专业/教学/项目：中高信息密度，完整过程与细节",
+    "medium": "日常/情感/活动：中信息密度，通常4–6实质信息组或等量完整叙事",
+    "minimum": "所有主题不得稀疏，不用大标题、巨幅图或装饰代替内容，也不靠微小文字堆密度"
+  },
+  "styles": [
+    {
+      "id": "S01",
+      "slug": "research-nature",
+      "name": "科研汇报 · 证据与机制",
+      "theme": "科研汇报",
+      "density": "高",
+      "palette": "纸白 #FAFBFC、藏蓝 #18334D、青绿 #238D91、浅紫 #D8D9EF，少量莓红 #A34F73",
+      "design": "Nature figure 式科学叙事。细轮廓、具体模型结构、主机制配辅助诊断、直接标签、跨图语义一致；不是商务卡片。",
+      "panels": [
+        [
+          "研究问题与证据链",
+          "上方问题句，下方左侧约六成是观测序列→特征矩阵→方法→预测的完整链，右侧上下排列现有边界和待检验问题。图中有输入输出、模型内部多级节点、图例与两处局部放大，所有波形注明示意。短标签：观测序列、特征表示、方法机制、输出预测、适用边界、待检验。"
+        ],
+        [
+          "方法机制与验证设计",
+          "横向主机制占中间五成，底部三个辅助面板分别为输入条件、受控比较、评价指标定义；训练与验证用分隔线区分，不画未知实验收益。关键模块内部画分支、编码向量与融合节点；箭头注明数据或状态，清楚标出研究方案。"
+        ],
+        [
+          "对照与诊断如何相互支持",
+          "左侧六成预留真实结果图区，内部标真实结果待填、条件、指标、单位；右侧为残差时域、相关结构、误差分组的三个示意结构小图，不能产生性能排名。底部列控制变量、重复单位和误差定义的文字位置，体现密集但清晰的科学面板。"
+        ],
+        [
+          "贡献、边界与下一步",
+          "用三个证据汇合模块指向中心研究判断，再分出贡献、适用边界、待验证计划三列；有小型方法示意、边界条件图和后续实验路径。避免仅三块大字和空白背景，每块具有对象图形、短说明与关系。"
+        ]
+      ],
+      "prompt_path": "prompts/S01-research-nature.txt",
+      "image_path": "originals/S01-research-nature.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-ab169937-040b-4700-af22-94626fd87c01.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "生成器增加了多模态机制、统计示意与判断文字；仅作科学版式与密度参考，不视为真实方法或证据。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 2139021,
+        "sha256": "a79a6767c76758d8dcefbaa9b83beca817b158377fee5f33e854dc6229855bf5"
+      }
+    },
+    {
+      "id": "S02",
+      "slug": "project-strategy",
+      "name": "项目介绍 · 商务战略",
+      "theme": "项目介绍",
+      "density": "中高",
+      "palette": "深海军蓝 #11283E、冷白 #F6F8FA、青绿 #007F84、浅灰蓝 #DCE5ED",
+      "design": "成熟咨询报告与企业提案的结合，直角网格、分层编号、细线架构、清晰交付物，不用科学论文图标或科技霓虹。",
+      "panels": [
+        [
+          "从业务问题到项目价值",
+          "左上简明项目标题，左下四项痛点带场景插图；中部用连接路径到解决方案，右侧为三项价值与边界。底部完整范围条，文字：现状、痛点、方案、价值、范围，不能只放一句宣传语。"
+        ],
+        [
+          "方案架构与模块职责",
+          "上下三层架构：业务入口、核心能力、数据与运营，内部至少六个具体模块；右边竖向责任与依赖说明，底部列用户、业务团队、交付团队三个角色。连接清楚，图元互不重叠。"
+        ],
+        [
+          "实施路线与交付里程碑",
+          "五阶段横向时间路径，每阶段包含任务、交付物、验收条件；下方用两条泳道表达产品与技术并行工作，右下放风险与应对两组短句，不捏造日期和完成率。"
+        ],
+        [
+          "资源协同与决策事项",
+          "左侧角色分工矩阵用文字标签不塞长段落，中间预算类别和资源需求，右侧三条待决策事项；底部一条下一步行动路线。密度充实，强调可执行信息。"
+        ]
+      ],
+      "prompt_path": "prompts/S02-project-strategy.txt",
+      "image_path": "originals/S02-project-strategy.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-52d3ce94-dbe7-483a-834d-e32ebc8942ab.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "架构、角色与里程碑为通用业务示例；正式项目需按实际范围重写。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 2026958,
+        "sha256": "4f1dd21e8582bbf42c81d890337eacf54be59ae913250ccc791f3c7e6af71298"
+      }
+    },
+    {
+      "id": "S03",
+      "slug": "team-building-outdoor",
+      "name": "团建活动 · 活力户外",
+      "theme": "团建活动",
+      "density": "中",
+      "palette": "奶油 #FFF6E8、阳光橙 #EE8E35、松绿 #247765、湖蓝 #77B7C5",
+      "design": "轻松户外杂志与手绘地图拼贴，运动人物插画、纸贴条和自然景色；活泼但有序，不用严肃科研面板。",
+      "panels": [
+        [
+          "一起出发，遇见更好的我们",
+          "右侧约四成是原创户外团体插画，左侧是活动主题、活动目标和三项核心体验，底部有集合、行程、分组、回顾四个带小图的信息块。标题不超过页面高度五分之一。"
+        ],
+        [
+          "一天的活动安排",
+          "弯曲路径贯穿四个活动站：破冰、协作挑战、野餐分享、合影回顾；每站有活动名、任务说明和人物小场景，侧栏放集合地点、装备、天气预案的说明位置，无虚构具体地点。"
+        ],
+        [
+          "协作挑战怎么玩",
+          "三种游戏各有完整小场景和任务规则：搭桥、寻线索、接力；下方有角色分工和互助提示。文字不小，图像不能挤掉规则内容。"
+        ],
+        [
+          "把今天的收获带回团队",
+          "中间三张原创情景插画胶片，下方对应信任、沟通、协作的具体收获；右侧是分享问题和后续行动，保留完整信息，不用单张照片加一句口号。"
+        ]
+      ],
+      "prompt_path": "prompts/S03-team-building-outdoor.txt",
+      "image_path": "originals/S03-team-building-outdoor.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-732dc836-8d86-4c97-85c2-ff122e63a269.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "活动规则与角色为示例；正式活动需替换为已确定安排。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 2922217,
+        "sha256": "fdedd5a68b4d0d062c4ec24b59b0722e1ddca71962f975916387235d19970690"
+      }
+    },
+    {
+      "id": "S04",
+      "slug": "party-civic",
+      "name": "党建活动 · 庄重红金",
+      "theme": "党建活动",
+      "density": "中高",
+      "palette": "正红 #B51F26、米白 #F8F1E4、沉金 #B99044、深棕 #54352B",
+      "design": "庄重的红金政务版式、淡纸纹、克制的红色绸带与建筑剪影，清晰编号与端正中文字体。不用商业促销符号，不伪造党徽国徽或官方标识。",
+      "panels": [
+        [
+          "党建引领，凝聚奋进力量",
+          "红色标题带配建筑线描，中下部完整呈现学习、服务、实践、协同四项活动主线，每项含主题、形式与目标；右侧有本次活动流程和参与说明，不只有红旗背景。"
+        ],
+        [
+          "理论学习与交流安排",
+          "三个学习单元并列，每个单元含资料研读、交流问题、成果整理的图文路径；底部放学习记录、心得交流、落实任务三个具体输出。引用区域标经核对原文后填写，不编造讲话或政策原句。"
+        ],
+        [
+          "服务实践与组织协同",
+          "中心是社区服务原创插画，左右各有两组活动模块：需求走访、志愿服务、共建协作、问题反馈；下方是责任分工与反馈闭环。活动均为方案示例，不声称已完成。"
+        ],
+        [
+          "活动复盘与落实清单",
+          "左侧活动流程回顾框架，中间分为经验、问题、改进三组，每组有两条短句位置，右侧下一步任务路线；红金比例克制，白底保证正文可读。"
+        ]
+      ],
+      "prompt_path": "prompts/S04-party-civic.txt",
+      "image_path": "originals/S04-party-civic.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-2b32d2c1-a1e5-4eb2-a1ad-bb104b302d1a.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "活动及总结文字为方案示例；政策原文、实际活动与生成字形需另行核对。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 2363305,
+        "sha256": "2177f16d5578f2850c82249f280af492065312c3060ccda57e510e9ba6e97dae"
+      }
+    },
+    {
+      "id": "S05",
+      "slug": "landscape-ink",
+      "name": "山水景色 · 青绿人文",
+      "theme": "山水景色",
+      "density": "中",
+      "palette": "宣纸白 #F3EFE5、黛青 #244D50、远山绿 #7C9E8A、赭石 #B78556",
+      "design": "青绿山水与现代旅行编辑设计结合，水墨层次、山脊轮廓、竖排小标题和横排正文共存。景观不是空白背景，图文共同讲解地形、人文与路线。",
+      "panels": [
+        [
+          "山水之间，读懂一段旅程",
+          "上半幅有连绵山水插画，下面与侧边分布山形、水系、人文、季节四组图文说明；地图线索和三个景观局部呼应，不能只放巨幅山和小标题。"
+        ],
+        [
+          "从山脊到河谷的景观层次",
+          "横向剖面示意山脊、林地、溪流、村落，配四个局部放大和短解说；侧边竖向阅读路径，底部观景与文化线索，非科学测绘不标虚假高度。"
+        ],
+        [
+          "路线、停留与观察",
+          "展开式地图路线穿过四个场景点，每点有景观小图和停留/观察内容；右栏包含出行节奏、摄影观察、文化礼仪三组信息，无虚构真实景区。"
+        ],
+        [
+          "四时风物与旅行札记",
+          "四季或四时景色小幅插画构成完整图文组，旁边有光色、植被、水景和感受的对应说明；下方为实用准备与行程回顾。留白有节奏但正文不稀疏。"
+        ]
+      ],
+      "prompt_path": "prompts/S05-landscape-ink.txt",
+      "image_path": "originals/S05-landscape-ink.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-358392cb-6261-441e-8a7e-69f14c1de091.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "景观、地图与旅行叙事为原创示意，不对应真实景区和路线。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 3118391,
+        "sha256": "f8988cb8e2c8d786f3430c14852a22b86d277ed292d34c5ddd93af2b2ac72dfa"
+      }
+    },
+    {
+      "id": "S06",
+      "slug": "position-candidacy",
+      "name": "职位竞选 · 自信陈述",
+      "theme": "职位竞选",
+      "density": "中",
+      "palette": "暖白 #FAF7F1、酒红 #802F46、深蓝 #263E56、浅金 #C8A66C",
+      "design": "专业个人陈述与校园职位竞选风格，整洁编辑网格、履历路径、证据卡片和行动承诺。人物用原创剪影或插画，不假装真实候选人；无虚构奖项资历。",
+      "panels": [
+        [
+          "以行动回应期待",
+          "左侧候选人插画只占三成，右侧定位陈述、三项适配能力与工作原则，下方给出服务对象、职责理解、竞选主张三组信息。不能以大头像和一句口号占满。"
+        ],
+        [
+          "我的经历如何匹配岗位",
+          "左边三段经历路径各配行动与收获的短句位置，中间能力映射到组织、沟通、执行，右边岗位需求列表；所有具体奖项和数字写待填写，不虚构履历。"
+        ],
+        [
+          "如果当选，我将这样推进",
+          "三项行动计划分别含服务问题、具体动作、协作对象和验收方式；下方阶段路线显示倾听、试行、反馈、改进。突出可执行，不写空泛宣言。"
+        ],
+        [
+          "让承诺接受检验",
+          "左侧承诺与对应反馈机制，右侧沟通渠道、透明记录、周期复盘三组模块，底部明确下一步参与方式；充实有层级，不用空白致谢页。"
+        ]
+      ],
+      "prompt_path": "prompts/S06-position-candidacy.txt",
+      "image_path": "originals/S06-position-candidacy.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-6befcb11-dc99-477e-8075-4f114c5794b2.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "人物与经历是虚构示例；正式稿须替换为候选人真实材料，不照抄履历。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 2219140,
+        "sha256": "eb70628cd1dd17003d70f1ceef14562bae74f155747989bbb847656bc6710248"
+      }
+    },
+    {
+      "id": "S07",
+      "slug": "student-research-notebook",
+      "name": "小组课题 · 蓝黄探究",
+      "theme": "小组课题汇报",
+      "density": "中高",
+      "palette": "象牙白 #FBFAF3、学术蓝 #28588A、芥末黄 #D9B74A、铅笔灰 #65717B",
+      "design": "实验笔记与现代课堂展示，轻微纸张纹理、蓝色工程线、黄色重点贴条、具体装置和方法草图。比专业科研更亲近，依然保留研究逻辑与细节。",
+      "panels": [
+        [
+          "我们想回答什么问题",
+          "研究问题居上，主体以观察现象、已有解释、疑问、研究目标四块构成问题树，带装置或观察对象小图；底部组员职责和研究范围。"
+        ],
+        [
+          "课题怎样一步步开展",
+          "五步路线：提出问题、查阅资料、设计方法、收集证据、解释结果；每步包含实际任务类型和输出，侧边标控制条件与记录方式，图形内部有可辨认内容。"
+        ],
+        [
+          "证据应该怎样展示",
+          "左侧实验布置示意及变量标签，中部真实数据图预留区标真实数据待填，右侧观察记录与解释边界；底部列对照条件和异常记录，不生成虚构结果曲线。"
+        ],
+        [
+          "小组结论与继续探索",
+          "结论区域用待证据支持标记，旁边是分工反思、研究局限和下一轮问题，每块含两项具体短句位置，配任务接力小图和下一步路线。"
+        ]
+      ],
+      "prompt_path": "prompts/S07-student-research-notebook.txt",
+      "image_path": "originals/S07-student-research-notebook.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-458022d5-b3e6-4565-85a3-b03964e6fc58.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "生成器补充了绿豆课题、观察记录与示意图形；不视为真实实验记录或研究结论。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 2518893,
+        "sha256": "807064ea951628933d16e75af9baed1cf00c950864c77dcc99abcbf3fe9a0e88"
+      },
+      "versions": [
+        {
+          "id": "v1",
+          "name": "小组课题 · 蓝黄探究",
+          "layout": "contact_sheet",
+          "density": "中高",
+          "palette": "象牙白 #FBFAF3、学术蓝 #28588A、芥末黄 #D9B74A、铅笔灰 #65717B",
+          "design": "实验笔记与现代课堂展示，轻微纸张纹理、蓝色工程线、黄色重点贴条、具体装置和方法草图。比专业科研更亲近，依然保留研究逻辑与细节。",
+          "image_path": "originals/S07-student-research-notebook.png",
+          "prompt_path": "prompts/S07-student-research-notebook.txt",
+          "panels": [
+            [
+              "我们想回答什么问题",
+              "研究问题居上，主体以观察现象、已有解释、疑问、研究目标四块构成问题树，带装置或观察对象小图；底部组员职责和研究范围。"
+            ],
+            [
+              "课题怎样一步步开展",
+              "五步路线：提出问题、查阅资料、设计方法、收集证据、解释结果；每步包含实际任务类型和输出，侧边标控制条件与记录方式，图形内部有可辨认内容。"
+            ],
+            [
+              "证据应该怎样展示",
+              "左侧实验布置示意及变量标签，中部真实数据图预留区标真实数据待填，右侧观察记录与解释边界；底部列对照条件和异常记录，不生成虚构结果曲线。"
+            ],
+            [
+              "小组结论与继续探索",
+              "结论区域用待证据支持标记，旁边是分工反思、研究局限和下一轮问题，每块含两项具体短句位置，配任务接力小图和下一步路线。"
+            ]
+          ],
+          "generation": {
+            "status": "generated",
+            "tool": "image_gen.imagegen",
+            "requested_model": "GPT-Image-2.5",
+            "user_authorized_alternative": "内置生图；具体模型标为未披露",
+            "actual_model": "未披露",
+            "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-458022d5-b3e6-4565-85a3-b03964e6fc58.png",
+            "generated_date": "2026-10-19"
+          },
+          "visual_review": {
+            "status": "usable_style_reference",
+            "inspected": true,
+            "inspected_date": "2026-10-19",
+            "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+            "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+            "text": "主要标题可辨，正式成稿须独立文字校对",
+            "factual_validation": "not_validated",
+            "notes": "生成器补充了绿豆课题、观察记录与示意图形；不视为真实实验记录或研究结论。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2518893,
+            "sha256": "807064ea951628933d16e75af9baed1cf00c950864c77dcc99abcbf3fe9a0e88"
+          }
+        },
+        {
+          "id": "v2",
+          "name": "小组课题 · 科学探究精绘",
+          "layout": "single_pages",
+          "density": "高",
+          "palette": "纯白、深海军蓝、矿物青绿、淡紫灰，少量柔金用于实验变量；去掉儿童漫画和厚重贴纸",
+          "design": "大学课题答辩的精密研究图，承接 Nature figure 的细结构、主视觉、放大框和有语义的箭头；轻量三维实验装置配平面科学图元，科学叙事而不是模板卡片。",
+          "design_brief_path": "prompts/S07-student-research-notebook-v2.txt",
+          "pages": [
+            {
+              "id": "S07-V2-P1",
+              "style_id": "S07",
+              "page": 1,
+              "title": "从观察到可检验的问题",
+              "prompt_path": "prompts/S07-student-research-notebook-v2-p1.txt",
+              "image_path": "originals/S07-student-research-notebook-v2-p1.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-b85a0011-1135-4458-aa52-e1c8661f47db.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加装置细节、控制条件与证据层级；第三页已修复跨页对象。生成器仍补充了表观/生理/分子层示意及图形，不代表实际实验或已经取得的贡献，复用须按真实课题重写。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 2065757,
+                "sha256": "1019b316bb07e3374a74e88139685a26e15b98fcbb2247ffda9ab64ddb6a7c21"
+              }
+            },
+            {
+              "id": "S07-V2-P2",
+              "style_id": "S07",
+              "page": 2,
+              "title": "方法路径与信息如何流动",
+              "prompt_path": "prompts/S07-student-research-notebook-v2-p2.txt",
+              "image_path": "originals/S07-student-research-notebook-v2-p2.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-e691e6c3-08b1-4266-aaf8-5f70fbed4ad6.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加装置细节、控制条件与证据层级；第三页已修复跨页对象。生成器仍补充了表观/生理/分子层示意及图形，不代表实际实验或已经取得的贡献，复用须按真实课题重写。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 940,
+                "bytes": 2056376,
+                "sha256": "ceed3791242d6b71cb4827b3120437887317b06f31c13b769f3111410a383a22"
+              }
+            },
+            {
+              "id": "S07-V2-P3",
+              "style_id": "S07",
+              "page": 3,
+              "title": "让证据与解释各司其职",
+              "prompt_path": "prompts/S07-student-research-notebook-v2-p3.txt",
+              "image_path": "originals/S07-student-research-notebook-v2-p3.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-a2b39b6d-a459-4ece-8d87-31cd620a1579.png",
+              "status": "generated",
+              "rejected_attempt": {
+                "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-af74e108-0e36-4d72-8ed5-759e985ec3a0.png",
+                "image_path": "candidates/S07-student-research-notebook-v2-p3-aquarium-rejected.png",
+                "reason": "生成器将植物课题改为水槽场景，跨页主题不一致",
+                "file_metadata": {
+                  "width": 1672,
+                  "height": 941,
+                  "bytes": 2131421,
+                  "sha256": "73e4784dcaebd7cc15dde971e49cb9da893a49642168bd5067b089992dbd7acf"
+                }
+              },
+              "correction_prompt_path": "prompts/S07-student-research-notebook-v2-p3-correction.txt",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ],
+                "correction_reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-af74e108-0e36-4d72-8ed5-759e985ec3a0.png",
+                  "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-b85a0011-1135-4458-aa52-e1c8661f47db.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加装置细节、控制条件与证据层级；第三页已修复跨页对象。生成器仍补充了表观/生理/分子层示意及图形，不代表实际实验或已经取得的贡献，复用须按真实课题重写。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 2040454,
+                "sha256": "72a93a80e81345626587a257e569e25d651049de990d2d3709bdb40dce50d342"
+              }
+            },
+            {
+              "id": "S07-V2-P4",
+              "style_id": "S07",
+              "page": 4,
+              "title": "研究贡献与下一轮问题",
+              "prompt_path": "prompts/S07-student-research-notebook-v2-p4.txt",
+              "image_path": "originals/S07-student-research-notebook-v2-p4.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-06f794bf-e544-4ee6-b547-55e37f4533bf.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加装置细节、控制条件与证据层级；第三页已修复跨页对象。生成器仍补充了表观/生理/分子层示意及图形，不代表实际实验或已经取得的贡献，复用须按真实课题重写。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 2108537,
+                "sha256": "b883845377db749b4677b4dc489ec60bf967cb0d5df9f8c233cd5c2e2a416a10"
+              }
+            }
+          ],
+          "explicit_skill": "nature-figure",
+          "visual_review": {
+            "status": "usable_style_reference",
+            "inspected": true,
+            "content_facts_verified": false,
+            "notes": "比 V1 增加装置细节、控制条件与证据层级；第三页已修复跨页对象。生成器仍补充了表观/生理/分子层示意及图形，不代表实际实验或已经取得的贡献，复用须按真实课题重写。"
+          }
+        }
+      ],
+      "preferred_version": "v2"
+    },
+    {
+      "id": "S08",
+      "slug": "family-memory",
+      "name": "家庭情感 · 温暖记忆",
+      "theme": "家庭情感",
+      "density": "中",
+      "palette": "奶油白 #FFF5E9、陶土 #BD775C、鼠尾草 #8FA78B、暖褐 #624F45",
+      "design": "温暖家庭相册、纸质拼贴、手写风小注与清楚正文字体，原创日常人物插画和物件静物。情感自然、细节丰富，避免婚庆商业风和空洞大字。",
+      "panels": [
+        [
+          "平凡日子里的珍贵时刻",
+          "三幅家庭日常插画：共餐、散步、阅读，分别配时间线索、事件短句和感受说明；左侧主题和家庭小故事，底部相互陪伴的三项细节。"
+        ],
+        [
+          "一段共同走过的时光",
+          "四个记忆节点穿过纸张胶片，每个节点含人物场景、事件与记忆物件；右栏列共同习惯与珍惜的变化。原创示意，不伪装用户真实照片或经历。"
+        ],
+        [
+          "我们怎样更好地陪伴彼此",
+          "中心餐桌或客厅插画，四周四个具体行动：倾听、共同劳动、记录、庆祝；每个有动作示意和短解释，底部一周陪伴计划框架。"
+        ],
+        [
+          "把爱放进下一次行动",
+          "左侧愿望清单和家庭小仪式，右侧共同计划的三步路径，下方有给彼此的话与日常行动两组完整信息；不做一张空白贺卡。"
+        ]
+      ],
+      "prompt_path": "prompts/S08-family-memory.txt",
+      "image_path": "originals/S08-family-memory.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-d822c737-49b9-470c-8758-6186e935a36d.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "人物、记忆、叙事和计划均为原创示例；需替换为用户实际故事或明确虚构内容。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 2523747,
+        "sha256": "731fcd57772dcb8ddfdff7c0bb0e32f5cec3a4a377b67e721da6171b69ebec9a"
+      }
+    },
+    {
+      "id": "S09",
+      "slug": "team-collaboration",
+      "name": "团队协作 · 瑞士网格",
+      "theme": "团队协作",
+      "density": "中高",
+      "palette": "冷白 #F5F7FA、钴蓝 #2757BC、石墨 #26323E、酸橙 #C0D56B",
+      "design": "瑞士平面网格与现代协作图示，醒目编号、对齐文字、流程泳道、交接接口，扁平人物图形。不是应用仪表盘或大量圆角卡片。",
+      "panels": [
+        [
+          "协作从共同目标开始",
+          "左侧完整目标树与成功标准，右侧四个角色围绕共同交付物的关系图；底部协作原则三项及各自行为说明。主视觉与文字等重。"
+        ],
+        [
+          "角色、接口与交接",
+          "横向四角色泳道，每条包含任务、输入、输出和交接点，用颜色配合线型；右侧争议处理与升级路径，不放虚构团队数据。"
+        ],
+        [
+          "从讨论到交付的闭环",
+          "需求澄清、方案、执行、复核、反馈五个阶段，内部显示文档、讨论、任务和检查对象；下方配两种常见卡点及具体应对。"
+        ],
+        [
+          "下一轮怎样协作得更好",
+          "三列回顾：保留、改变、尝试，均有行为示例位置与负责人标签；下方行动路径、共享产物和沟通节奏。整页充实且容易扫读。"
+        ]
+      ],
+      "prompt_path": "prompts/S09-team-collaboration.txt",
+      "image_path": "originals/S09-team-collaboration.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-d05009f1-92e6-464e-8537-901b2ac45a15.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "角色和协作流程为通用示例；需按团队真实接口调整。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 1937163,
+        "sha256": "b7150563c3e5cdaf67beb8ebf37638aadcf9ed1893652e351166128de06ed14c"
+      },
+      "versions": [
+        {
+          "id": "v1",
+          "name": "团队协作 · 瑞士网格",
+          "layout": "contact_sheet",
+          "density": "中高",
+          "palette": "冷白 #F5F7FA、钴蓝 #2757BC、石墨 #26323E、酸橙 #C0D56B",
+          "design": "瑞士平面网格与现代协作图示，醒目编号、对齐文字、流程泳道、交接接口，扁平人物图形。不是应用仪表盘或大量圆角卡片。",
+          "image_path": "originals/S09-team-collaboration.png",
+          "prompt_path": "prompts/S09-team-collaboration.txt",
+          "panels": [
+            [
+              "协作从共同目标开始",
+              "左侧完整目标树与成功标准，右侧四个角色围绕共同交付物的关系图；底部协作原则三项及各自行为说明。主视觉与文字等重。"
+            ],
+            [
+              "角色、接口与交接",
+              "横向四角色泳道，每条包含任务、输入、输出和交接点，用颜色配合线型；右侧争议处理与升级路径，不放虚构团队数据。"
+            ],
+            [
+              "从讨论到交付的闭环",
+              "需求澄清、方案、执行、复核、反馈五个阶段，内部显示文档、讨论、任务和检查对象；下方配两种常见卡点及具体应对。"
+            ],
+            [
+              "下一轮怎样协作得更好",
+              "三列回顾：保留、改变、尝试，均有行为示例位置与负责人标签；下方行动路径、共享产物和沟通节奏。整页充实且容易扫读。"
+            ]
+          ],
+          "generation": {
+            "status": "generated",
+            "tool": "image_gen.imagegen",
+            "requested_model": "GPT-Image-2.5",
+            "user_authorized_alternative": "内置生图；具体模型标为未披露",
+            "actual_model": "未披露",
+            "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-d05009f1-92e6-464e-8537-901b2ac45a15.png",
+            "generated_date": "2026-10-19"
+          },
+          "visual_review": {
+            "status": "usable_style_reference",
+            "inspected": true,
+            "inspected_date": "2026-10-19",
+            "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+            "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+            "text": "主要标题可辨，正式成稿须独立文字校对",
+            "factual_validation": "not_validated",
+            "notes": "角色和协作流程为通用示例；需按团队真实接口调整。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 1937163,
+            "sha256": "b7150563c3e5cdaf67beb8ebf37638aadcf9ed1893652e351166128de06ed14c"
+          }
+        },
+        {
+          "id": "v2",
+          "name": "团队协作 · 精密系统地图",
+          "layout": "single_pages",
+          "density": "中高",
+          "palette": "暖白 #F7F8F6、墨蓝 #19384F、矿物蓝 #4488A6、青绿 #3D8D85、少量橙金 #D8A34C",
+          "design": "高级信息设计与精密系统图，借鉴 Nature figure 的主次结构与局部证据，但表现真实协作系统。用任务网络、文件束、交接接口、角色轨迹、版本分支和细线标注，替代通用蓝色三栏和微笑人物头像。",
+          "design_brief_path": "prompts/S09-team-collaboration-v2.txt",
+          "pages": [
+            {
+              "id": "S09-V2-P1",
+              "style_id": "S09",
+              "page": 1,
+              "title": "从共同目标到协作网络",
+              "prompt_path": "prompts/S09-team-collaboration-v2-p1.txt",
+              "image_path": "originals/S09-team-collaboration-v2-p1.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-de99cf4c-3e07-41ef-83c2-75dafdb65a0a.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加角色输入输出、文档内部结构、门槛条件、反馈与版本关系；示例角色与流程按实际团队替换。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 1968905,
+                "sha256": "e2971b508a90dd3bc5db443f18a45b68c3d3706912203ffed11052b2845825f2"
+              }
+            },
+            {
+              "id": "S09-V2-P2",
+              "style_id": "S09",
+              "page": 2,
+              "title": "交接发生在什么位置",
+              "prompt_path": "prompts/S09-team-collaboration-v2-p2.txt",
+              "image_path": "originals/S09-team-collaboration-v2-p2.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-47d30a0d-1869-41ae-b2e3-134cdf33b1f3.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加角色输入输出、文档内部结构、门槛条件、反馈与版本关系；示例角色与流程按实际团队替换。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 1735977,
+                "sha256": "8679f24390e825a0b38f7d479a430766f925f68e679329506f96d7f66506f373"
+              }
+            },
+            {
+              "id": "S09-V2-P3",
+              "style_id": "S09",
+              "page": 3,
+              "title": "协作卡点怎样变成可修复问题",
+              "prompt_path": "prompts/S09-team-collaboration-v2-p3.txt",
+              "image_path": "originals/S09-team-collaboration-v2-p3.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-820bf33f-d367-4c15-8b4f-382c10af375d.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加角色输入输出、文档内部结构、门槛条件、反馈与版本关系；示例角色与流程按实际团队替换。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 1960680,
+                "sha256": "9dc253455b4d0cfc8dc1aa5d7f94937154a3e7ec8eafd5c340dbabb6e654983a"
+              }
+            },
+            {
+              "id": "S09-V2-P4",
+              "style_id": "S09",
+              "page": 4,
+              "title": "把复盘接到下一次行动",
+              "prompt_path": "prompts/S09-team-collaboration-v2-p4.txt",
+              "image_path": "originals/S09-team-collaboration-v2-p4.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-8fc189c2-c5ff-4a70-98fe-15664ae41889.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加角色输入输出、文档内部结构、门槛条件、反馈与版本关系；示例角色与流程按实际团队替换。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 1924161,
+                "sha256": "ec7d70489083dc51ea349a200ccae5886e79278aa6f26ccee65f3dd201f464ce"
+              }
+            }
+          ],
+          "explicit_skill": "nature-figure",
+          "visual_review": {
+            "status": "usable_style_reference",
+            "inspected": true,
+            "content_facts_verified": false,
+            "notes": "比 V1 增加角色输入输出、文档内部结构、门槛条件、反馈与版本关系；示例角色与流程按实际团队替换。"
+          }
+        }
+      ],
+      "preferred_version": "v2"
+    },
+    {
+      "id": "S10",
+      "slug": "technology-product-expo",
+      "name": "科技产品 · 工业未来",
+      "theme": "科技产品展览",
+      "density": "中高",
+      "palette": "炭黑 #111923、冰白 #E8F3F5、电青 #4DD8D6、冷银 #8194A5",
+      "design": "高端硬件发布与工业展陈，原创设备渲染、精确爆炸图、细导线、清楚规格栏和深色分区。少量发光只用于关键接口，不用无意义代码雨。",
+      "panels": [
+        [
+          "让能力成为可触达的产品",
+          "原创桌面智能设备为主视觉占四成，周边三项核心能力及应用场景，底部产品定位、使用对象、交互方式和边界四组信息；不虚构品牌。"
+        ],
+        [
+          "从外观到内部架构",
+          "设备爆炸示意图配传感、计算、连接、电源四个明确模块标签；右侧规格类别栏用待确认而非假参数，底部说明模块协作路径与维护方式。"
+        ],
+        [
+          "真实使用场景与交互路径",
+          "三幅具体场景插画和一条发现需求、操作、反馈、完成的交互链；侧边列易用性、可靠性和兼容性验证项目，无虚构性能提升。"
+        ],
+        [
+          "展览体验与产品路线",
+          "左侧体验站点地图含演示、互动、拆解、问答，右侧展示当前能力与下一步计划分区；底部合作方式及参观信息位置。字体高对比，无空旷海报。"
+        ]
+      ],
+      "prompt_path": "prompts/S10-technology-product-expo.txt",
+      "image_path": "originals/S10-technology-product-expo.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-8941aa11-12d8-417d-a115-17fd2367c5c6.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "产品外观、内部结构和能力为原创概念，不代表已存在设备或已验证规格。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 2257756,
+        "sha256": "81c8c4e405387018d0f120ab3d648ac3444234770ef54c2e013f6536d12918f0"
+      },
+      "versions": [
+        {
+          "id": "v1",
+          "name": "科技产品 · 工业未来",
+          "layout": "contact_sheet",
+          "density": "中高",
+          "palette": "炭黑 #111923、冰白 #E8F3F5、电青 #4DD8D6、冷银 #8194A5",
+          "design": "高端硬件发布与工业展陈，原创设备渲染、精确爆炸图、细导线、清楚规格栏和深色分区。少量发光只用于关键接口，不用无意义代码雨。",
+          "image_path": "originals/S10-technology-product-expo.png",
+          "prompt_path": "prompts/S10-technology-product-expo.txt",
+          "panels": [
+            [
+              "让能力成为可触达的产品",
+              "原创桌面智能设备为主视觉占四成，周边三项核心能力及应用场景，底部产品定位、使用对象、交互方式和边界四组信息；不虚构品牌。"
+            ],
+            [
+              "从外观到内部架构",
+              "设备爆炸示意图配传感、计算、连接、电源四个明确模块标签；右侧规格类别栏用待确认而非假参数，底部说明模块协作路径与维护方式。"
+            ],
+            [
+              "真实使用场景与交互路径",
+              "三幅具体场景插画和一条发现需求、操作、反馈、完成的交互链；侧边列易用性、可靠性和兼容性验证项目，无虚构性能提升。"
+            ],
+            [
+              "展览体验与产品路线",
+              "左侧体验站点地图含演示、互动、拆解、问答，右侧展示当前能力与下一步计划分区；底部合作方式及参观信息位置。字体高对比，无空旷海报。"
+            ]
+          ],
+          "generation": {
+            "status": "generated",
+            "tool": "image_gen.imagegen",
+            "requested_model": "GPT-Image-2.5",
+            "user_authorized_alternative": "内置生图；具体模型标为未披露",
+            "actual_model": "未披露",
+            "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-8941aa11-12d8-417d-a115-17fd2367c5c6.png",
+            "generated_date": "2026-10-19"
+          },
+          "visual_review": {
+            "status": "usable_style_reference",
+            "inspected": true,
+            "inspected_date": "2026-10-19",
+            "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+            "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+            "text": "主要标题可辨，正式成稿须独立文字校对",
+            "factual_validation": "not_validated",
+            "notes": "产品外观、内部结构和能力为原创概念，不代表已存在设备或已验证规格。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2257756,
+            "sha256": "81c8c4e405387018d0f120ab3d648ac3444234770ef54c2e013f6536d12918f0"
+          }
+        },
+        {
+          "id": "v2",
+          "name": "科技产品 · 精密工业展陈",
+          "layout": "single_pages",
+          "density": "中高",
+          "palette": "深石墨 #0B1723、冷白、钛银、冰青 #6AD9DC、少量琥珀用于交互状态，避免廉价满屏霓虹",
+          "design": "工业设计评审与高级硬件展陈结合：原创概念设备的真实材质、精密爆炸图、光学层/声学层/电路层/结构层、部件局部放大、硬件细导线与清楚标注。向 Nature 科学插图学习剖切解释和多尺度，而不把产品页做成学术论文。",
+          "design_brief_path": "prompts/S10-technology-product-expo-v2.txt",
+          "pages": [
+            {
+              "id": "S10-V2-P1",
+              "style_id": "S10",
+              "page": 1,
+              "title": "一件产品，多个层次的设计",
+              "prompt_path": "prompts/S10-technology-product-expo-v2-p1.txt",
+              "image_path": "originals/S10-technology-product-expo-v2-p1.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-920a17c7-9956-4fde-9540-86a080a08f16.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\multi-theme-style-library\\originals\\S10-technology-product-expo.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加光学/声学/散热局部、爆炸层次与供电/信号路径；设备和电路完全为概念设计，不作为实际工程结构或性能依据。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 2509553,
+                "sha256": "d6ce884e0f8daa51798cd3b978c253d2dbf7df7455d3bac1b3bdfe019458f651"
+              }
+            },
+            {
+              "id": "S10-V2-P2",
+              "style_id": "S10",
+              "page": 2,
+              "title": "把外壳打开，理解模块协同",
+              "prompt_path": "prompts/S10-technology-product-expo-v2-p2.txt",
+              "image_path": "originals/S10-technology-product-expo-v2-p2.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-60acf754-2f00-482a-a80c-e1d6d5ce33fb.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\multi-theme-style-library\\originals\\S10-technology-product-expo.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加光学/声学/散热局部、爆炸层次与供电/信号路径；设备和电路完全为概念设计，不作为实际工程结构或性能依据。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 2303831,
+                "sha256": "00e807904c96c8464494048f4f75978f33109d84ee0f9d22a0ddec4436e9921c"
+              }
+            },
+            {
+              "id": "S10-V2-P3",
+              "style_id": "S10",
+              "page": 3,
+              "title": "体验不是功能清单",
+              "prompt_path": "prompts/S10-technology-product-expo-v2-p3.txt",
+              "image_path": "originals/S10-technology-product-expo-v2-p3.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-7a0844c9-081f-4594-8090-06c7bf973949.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\multi-theme-style-library\\originals\\S10-technology-product-expo.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加光学/声学/散热局部、爆炸层次与供电/信号路径；设备和电路完全为概念设计，不作为实际工程结构或性能依据。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 2274004,
+                "sha256": "5d1298a7301567ff31fabecfe7dbebf82ad372edbd201e0fd7f2edb168e11d65"
+              }
+            },
+            {
+              "id": "S10-V2-P4",
+              "style_id": "S10",
+              "page": 4,
+              "title": "让展台讲清产品",
+              "prompt_path": "prompts/S10-technology-product-expo-v2-p4.txt",
+              "image_path": "originals/S10-technology-product-expo-v2-p4.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-0d3b8550-e847-4caa-829b-5bb39530799f.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\multi-theme-style-library\\originals\\S10-technology-product-expo.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加光学/声学/散热局部、爆炸层次与供电/信号路径；设备和电路完全为概念设计，不作为实际工程结构或性能依据。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 2432263,
+                "sha256": "dccb0627361850d2317a1b3af6592541ec745c54ece7025cab0ffeee9e31875a"
+              }
+            }
+          ],
+          "explicit_skill": "nature-figure",
+          "visual_review": {
+            "status": "usable_style_reference",
+            "inspected": true,
+            "content_facts_verified": false,
+            "notes": "比 V1 增加光学/声学/散热局部、爆炸层次与供电/信号路径；设备和电路完全为概念设计，不作为实际工程结构或性能依据。"
+          }
+        }
+      ],
+      "preferred_version": "v2"
+    },
+    {
+      "id": "S11",
+      "slug": "cultural-relic-museum",
+      "name": "文物展览 · 博物馆图录",
+      "theme": "文物展览",
+      "density": "中高",
+      "palette": "骨白 #F0E8D8、墨褐 #332D29、青铜绿 #648176、旧金 #A38751",
+      "design": "博物馆策展图录与文物细节摄影式插画，厚重衬线标题、细分隔线、器物全貌与纹饰局部并置。器物为教学原创示意，不伪造出土记录或真实馆藏身份。",
+      "panels": [
+        [
+          "从器物读见生活",
+          "中央青铜器或陶器原创示意，左右为材质、形制、使用场景和工艺四项说明；底部器物观察路径与策展问题，出处年代均标待考证。"
+        ],
+        [
+          "形制、纹饰与制作工艺",
+          "左侧器物轮廓分解，中间三个纹饰局部放大，右侧工艺步骤示意；每个都有短说明及观察点，不以装饰纹样代替信息。"
+        ],
+        [
+          "器物之间的联系",
+          "三类原创器物并列，分别对应礼仪、饮食、日常三个主题，下面一条用途比较带与证据边界说明；不编造年代演进或考古推论。"
+        ],
+        [
+          "怎样观看与保护",
+          "展览动线连四个观察站，配细节、语境、比较、保护的图文模块；右侧文保方法类别与参观提示，不虚构修复事实。版面有图录密度。"
+        ]
+      ],
+      "prompt_path": "prompts/S11-cultural-relic-museum.txt",
+      "image_path": "originals/S11-cultural-relic-museum.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-782dedcc-947a-4d33-b79d-e8c7cae262a3.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "器物、纹饰、用途和工艺解释需按真实馆藏及策展来源替换核对；不是文物鉴定材料。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 2562146,
+        "sha256": "4a52951f6842c9cc060e31ecfbafa36c9bf9d1eb7547419a593441fd4d525563"
+      }
+    },
+    {
+      "id": "S12",
+      "slug": "business-review",
+      "name": "经营复盘 · 理性分析",
+      "theme": "经营复盘与年度总结",
+      "density": "高",
+      "palette": "瓷白 #F7F9FB、深蓝 #213C5B、灰蓝 #7F96AC、铜橙 #BE8251",
+      "design": "理性经营分析与咨询汇报，精细表格结构、对比栏、因素树、组织行动路径；定量图为真实数据预留，不合成数值和增长趋势。",
+      "panels": [
+        [
+          "目标、结果与关键判断",
+          "顶端经营问题，下方目标与结果两列对照框架，右侧四项关键判断，底部指标口径说明。数据区域标真实数据待填，不能画虚构KPI。"
+        ],
+        [
+          "变化来自哪些因素",
+          "完整驱动因素树从业务结果分解为需求、转化、交付、成本，配因素之间的条件说明和四个运营场景小图；不暗示未经分析的因果结论。"
+        ],
+        [
+          "从差异定位到行动",
+          "左侧定量对比图预留区域，中间问题证据归因表，右侧分层行动清单；每行动有责任角色、依赖、验证方式，真实图待填。"
+        ],
+        [
+          "下一周期的执行安排",
+          "季度或阶段路线不用编造日期，三条工作泳道配关键交付与风险检查点；右侧资源取舍和决策事项，内容充分、字号清楚。"
+        ]
+      ],
+      "prompt_path": "prompts/S12-business-review.txt",
+      "image_path": "originals/S12-business-review.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-c88b8121-d41f-44d0-93ad-2934ee042239.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "生成器在结果预留区画了示意柱形轮廓；正式定量图必须完全换成真实数据图，不能采纳这些高度。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 1996670,
+        "sha256": "08ccb5ba2a3f517ba77492139a095b6ce22eecca3d4811b1bcd432e331d68039"
+      },
+      "versions": [
+        {
+          "id": "v1",
+          "name": "经营复盘 · 理性分析",
+          "layout": "contact_sheet",
+          "density": "高",
+          "palette": "瓷白 #F7F9FB、深蓝 #213C5B、灰蓝 #7F96AC、铜橙 #BE8251",
+          "design": "理性经营分析与咨询汇报，精细表格结构、对比栏、因素树、组织行动路径；定量图为真实数据预留，不合成数值和增长趋势。",
+          "image_path": "originals/S12-business-review.png",
+          "prompt_path": "prompts/S12-business-review.txt",
+          "panels": [
+            [
+              "目标、结果与关键判断",
+              "顶端经营问题，下方目标与结果两列对照框架，右侧四项关键判断，底部指标口径说明。数据区域标真实数据待填，不能画虚构KPI。"
+            ],
+            [
+              "变化来自哪些因素",
+              "完整驱动因素树从业务结果分解为需求、转化、交付、成本，配因素之间的条件说明和四个运营场景小图；不暗示未经分析的因果结论。"
+            ],
+            [
+              "从差异定位到行动",
+              "左侧定量对比图预留区域，中间问题证据归因表，右侧分层行动清单；每行动有责任角色、依赖、验证方式，真实图待填。"
+            ],
+            [
+              "下一周期的执行安排",
+              "季度或阶段路线不用编造日期，三条工作泳道配关键交付与风险检查点；右侧资源取舍和决策事项，内容充分、字号清楚。"
+            ]
+          ],
+          "generation": {
+            "status": "generated",
+            "tool": "image_gen.imagegen",
+            "requested_model": "GPT-Image-2.5",
+            "user_authorized_alternative": "内置生图；具体模型标为未披露",
+            "actual_model": "未披露",
+            "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-c88b8121-d41f-44d0-93ad-2934ee042239.png",
+            "generated_date": "2026-10-19"
+          },
+          "visual_review": {
+            "status": "usable_style_reference",
+            "inspected": true,
+            "inspected_date": "2026-10-19",
+            "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+            "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+            "text": "主要标题可辨，正式成稿须独立文字校对",
+            "factual_validation": "not_validated",
+            "notes": "生成器在结果预留区画了示意柱形轮廓；正式定量图必须完全换成真实数据图，不能采纳这些高度。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 1996670,
+            "sha256": "08ccb5ba2a3f517ba77492139a095b6ce22eecca3d4811b1bcd432e331d68039"
+          }
+        },
+        {
+          "id": "v2",
+          "name": "经营复盘 · 驱动与决策图谱",
+          "layout": "single_pages",
+          "density": "高",
+          "palette": "暖白、墨蓝 #18354E、紫灰 #8D8BA7、钢蓝 #6F9FB9、少量铜橙 #C78851",
+          "design": "高端经营分析编辑设计加精密系统图。采用业务链路、因素拆解、证据归因、决策路径的细图元；避免俗套KPI四卡、等宽柱状卡片与大面积空白图占位。没有经营数据就不画虚构曲线。",
+          "design_brief_path": "prompts/S12-business-review-v2.txt",
+          "pages": [
+            {
+              "id": "S12-V2-P1",
+              "style_id": "S12",
+              "page": 1,
+              "title": "从业务现象进入驱动结构",
+              "prompt_path": "prompts/S12-business-review-v2-p1.txt",
+              "image_path": "originals/S12-business-review-v2-p1.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-cf4be172-b0a4-458c-826d-f6b022bc8533.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 充实业务链路、假设树、证据检查门与资源依赖；生成器在少量预留区域仍画了示意曲线，必须换成真实数据，不能当已验证结论。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 1820055,
+                "sha256": "5428c760effe0b86a68a6d5b3fcd39abc634b8db79c0eb0125d4e0fd5eeb7af7"
+              }
+            },
+            {
+              "id": "S12-V2-P2",
+              "style_id": "S12",
+              "page": 2,
+              "title": "把变化拆成可以核对的关系",
+              "prompt_path": "prompts/S12-business-review-v2-p2.txt",
+              "image_path": "originals/S12-business-review-v2-p2.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-3aa99086-6797-4444-93ed-cb3700e38d99.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 充实业务链路、假设树、证据检查门与资源依赖；生成器在少量预留区域仍画了示意曲线，必须换成真实数据，不能当已验证结论。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 2025970,
+                "sha256": "4374307b21ec989241f35e6d355bf51d6f8d75ebd2ce9e0a92f7d6ed2b9af269"
+              }
+            },
+            {
+              "id": "S12-V2-P3",
+              "style_id": "S12",
+              "page": 3,
+              "title": "让证据通向决策",
+              "prompt_path": "prompts/S12-business-review-v2-p3.txt",
+              "image_path": "originals/S12-business-review-v2-p3.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-f2f6f640-b579-45be-ac21-8eaaac0974ed.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 充实业务链路、假设树、证据检查门与资源依赖；生成器在少量预留区域仍画了示意曲线，必须换成真实数据，不能当已验证结论。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 1900892,
+                "sha256": "918455ac0cac11e5ec42a0d11bf77eb06a2de80598f91015bc915a4cac2545e8"
+              }
+            },
+            {
+              "id": "S12-V2-P4",
+              "style_id": "S12",
+              "page": 4,
+              "title": "下一周期如何落地",
+              "prompt_path": "prompts/S12-business-review-v2-p4.txt",
+              "image_path": "originals/S12-business-review-v2-p4.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-651185c8-a997-493c-9017-62cee8f363a4.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 充实业务链路、假设树、证据检查门与资源依赖；生成器在少量预留区域仍画了示意曲线，必须换成真实数据，不能当已验证结论。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 1966433,
+                "sha256": "9b94ccf993b591083f33fa856944236a7d7ccfff1e77be7c835da2476f69acf7"
+              }
+            }
+          ],
+          "explicit_skill": "nature-figure",
+          "visual_review": {
+            "status": "usable_style_reference",
+            "inspected": true,
+            "content_facts_verified": false,
+            "notes": "比 V1 充实业务链路、假设树、证据检查门与资源依赖；生成器在少量预留区域仍画了示意曲线，必须换成真实数据，不能当已验证结论。"
+          }
+        }
+      ],
+      "preferred_version": "v2"
+    },
+    {
+      "id": "S13",
+      "slug": "education-workshop",
+      "name": "教学培训 · 明亮课堂",
+      "theme": "课程教学与工作坊",
+      "density": "中高",
+      "palette": "奶白 #FFF9E9、墨蓝 #244765、向日黄 #EEC64B、浅蓝 #9DC9DC",
+      "design": "现代教育出版与剪纸式课堂插画，概念层级、例子、练习与反馈并存，友好清楚。避免幼稚装饰、贴满贴纸或只有口号。",
+      "panels": [
+        [
+          "今天要学会什么",
+          "主题、四个学习目标及对应学习产物，右侧教师与学员场景插画，底部知识地图带先备知识和目标关联。"
+        ],
+        [
+          "把复杂概念讲清楚",
+          "中央概念模型有清楚结构和连接，左侧一个具体例子，右侧常见误区与正确理解，下方关键词与迁移问题。图文密度适合课堂。"
+        ],
+        [
+          "一起完成一个练习",
+          "任务情境插画配四步操作、分组角色、需要材料、完成标准，右边提示栏；任何数值仅为题目示例并清楚标记，不装真实成绩。"
+        ],
+        [
+          "检验理解并带走方法",
+          "三项自测问题、一个应用场景和一组方法清单，底部下一次实践路径；不把总结做成稀疏的谢谢观看页。"
+        ]
+      ],
+      "prompt_path": "prompts/S13-education-workshop.txt",
+      "image_path": "originals/S13-education-workshop.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-35453ab2-f64c-4601-80ce-aef8e868f59a.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "课堂案例、练习与教学模型为示例；正式内容按课程目标核对。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 2133521,
+        "sha256": "313435c2f9c54f9b27c313cebc8e4aee2bd7a23ce60799f03dbd7b6a01b79c52"
+      },
+      "versions": [
+        {
+          "id": "v1",
+          "name": "教学培训 · 明亮课堂",
+          "layout": "contact_sheet",
+          "density": "中高",
+          "palette": "奶白 #FFF9E9、墨蓝 #244765、向日黄 #EEC64B、浅蓝 #9DC9DC",
+          "design": "现代教育出版与剪纸式课堂插画，概念层级、例子、练习与反馈并存，友好清楚。避免幼稚装饰、贴满贴纸或只有口号。",
+          "image_path": "originals/S13-education-workshop.png",
+          "prompt_path": "prompts/S13-education-workshop.txt",
+          "panels": [
+            [
+              "今天要学会什么",
+              "主题、四个学习目标及对应学习产物，右侧教师与学员场景插画，底部知识地图带先备知识和目标关联。"
+            ],
+            [
+              "把复杂概念讲清楚",
+              "中央概念模型有清楚结构和连接，左侧一个具体例子，右侧常见误区与正确理解，下方关键词与迁移问题。图文密度适合课堂。"
+            ],
+            [
+              "一起完成一个练习",
+              "任务情境插画配四步操作、分组角色、需要材料、完成标准，右边提示栏；任何数值仅为题目示例并清楚标记，不装真实成绩。"
+            ],
+            [
+              "检验理解并带走方法",
+              "三项自测问题、一个应用场景和一组方法清单，底部下一次实践路径；不把总结做成稀疏的谢谢观看页。"
+            ]
+          ],
+          "generation": {
+            "status": "generated",
+            "tool": "image_gen.imagegen",
+            "requested_model": "GPT-Image-2.5",
+            "user_authorized_alternative": "内置生图；具体模型标为未披露",
+            "actual_model": "未披露",
+            "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-35453ab2-f64c-4601-80ce-aef8e868f59a.png",
+            "generated_date": "2026-10-19"
+          },
+          "visual_review": {
+            "status": "usable_style_reference",
+            "inspected": true,
+            "inspected_date": "2026-10-19",
+            "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+            "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+            "text": "主要标题可辨，正式成稿须独立文字校对",
+            "factual_validation": "not_validated",
+            "notes": "课堂案例、练习与教学模型为示例；正式内容按课程目标核对。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2133521,
+            "sha256": "313435c2f9c54f9b27c313cebc8e4aee2bd7a23ce60799f03dbd7b6a01b79c52"
+          }
+        },
+        {
+          "id": "v2",
+          "name": "教学培训 · 知识建构图解",
+          "layout": "single_pages",
+          "density": "中高",
+          "palette": "象牙白、深靛蓝 #263D70、雾青绿 #67A49B、暖金 #D7B34C、淡杏，仅少量强调",
+          "design": "高品质科学教育出版插图与现代课堂信息设计，清楚的知识层级、具体例子、局部放大、任务材料与反馈。适合大学或成人培训，去掉幼儿卡通、贴纸、通用老师头像和蓝黄模板方框。",
+          "design_brief_path": "prompts/S13-education-workshop-v2.txt",
+          "pages": [
+            {
+              "id": "S13-V2-P1",
+              "style_id": "S13",
+              "page": 1,
+              "title": "一节课如何搭建知识结构",
+              "prompt_path": "prompts/S13-education-workshop-v2-p1.txt",
+              "image_path": "originals/S13-education-workshop-v2-p1.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-74d3e645-33e2-4409-bbde-aa32d5129901.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加知识层级、具体展览场景、任务材料与迁移关系；最后一页生成了力学与流动类比，只作教学设计例，科学适用边界与箭头需据本课内容核对。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 2058341,
+                "sha256": "b820d8f61f0ef98d53492af5e9c74955a325501019db9461e1bd206394dc12cb"
+              }
+            },
+            {
+              "id": "S13-V2-P2",
+              "style_id": "S13",
+              "page": 2,
+              "title": "从一个例子看懂方法",
+              "prompt_path": "prompts/S13-education-workshop-v2-p2.txt",
+              "image_path": "originals/S13-education-workshop-v2-p2.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-aab63d12-6d89-436a-abc5-e2e2c10779e1.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加知识层级、具体展览场景、任务材料与迁移关系；最后一页生成了力学与流动类比，只作教学设计例，科学适用边界与箭头需据本课内容核对。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 940,
+                "bytes": 2279350,
+                "sha256": "fb4269c1c6ab64fa5bc0cf38c980277a840823dd298ae59445f1fa04c6e22c6f"
+              }
+            },
+            {
+              "id": "S13-V2-P3",
+              "style_id": "S13",
+              "page": 3,
+              "title": "让练习产生可见的思考",
+              "prompt_path": "prompts/S13-education-workshop-v2-p3.txt",
+              "image_path": "originals/S13-education-workshop-v2-p3.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-8367405d-ab6d-4ef6-9033-3cdc72d46382.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加知识层级、具体展览场景、任务材料与迁移关系；最后一页生成了力学与流动类比，只作教学设计例，科学适用边界与箭头需据本课内容核对。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 2072234,
+                "sha256": "8348855e988e9b12b72c95662b759ff276dff6f5965922a949094d95d5d96f1d"
+              }
+            },
+            {
+              "id": "S13-V2-P4",
+              "style_id": "S13",
+              "page": 4,
+              "title": "检验理解并完成迁移",
+              "prompt_path": "prompts/S13-education-workshop-v2-p4.txt",
+              "image_path": "originals/S13-education-workshop-v2-p4.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-6f0b7641-0a2a-4db5-a21d-2d847b6d36ab.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加知识层级、具体展览场景、任务材料与迁移关系；最后一页生成了力学与流动类比，只作教学设计例，科学适用边界与箭头需据本课内容核对。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 1990449,
+                "sha256": "5e62de502cb36948a400aeb2ca4dbc795eabfca36ffb1b627844c45b1d9b27fb"
+              }
+            }
+          ],
+          "explicit_skill": "nature-figure",
+          "visual_review": {
+            "status": "usable_style_reference",
+            "inspected": true,
+            "content_facts_verified": false,
+            "notes": "比 V1 增加知识层级、具体展览场景、任务材料与迁移关系；最后一页生成了力学与流动类比，只作教学设计例，科学适用边界与箭头需据本课内容核对。"
+          }
+        }
+      ],
+      "preferred_version": "v2"
+    },
+    {
+      "id": "S14",
+      "slug": "medical-education",
+      "name": "医学科普 · 清洁可信",
+      "theme": "医学科普与健康教育",
+      "density": "中高",
+      "palette": "柔白 #F6FBFA、深青 #245B62、薄荷 #9ECDBA、珊瑚 #D89182",
+      "design": "医学教材式清楚插图与现代公共教育版式，解剖层级、机制箭头、认知误区比较；内容为通用教育结构示例，不生成个体诊疗指令。",
+      "panels": [
+        [
+          "认识身体中的协同机制",
+          "原创非写实人体轮廓配器官分区，四组知识模块与功能关联，侧边术语解释；标题标医学科普版式示例，细节不冒充诊断影像。"
+        ],
+        [
+          "结构、功能与作用过程",
+          "一个清楚器官或细胞层次示意占左半，右边三阶段功能路径及四个准确短标签；未知医学机制不补造，以结构示意为主。"
+        ],
+        [
+          "常见疑问怎样辨别",
+          "三组疑问、证据来源位置、理解边界的并列栏目；下方正规信息渠道与需要专业判断的情境类别，不提供具体用药或疾病判断。"
+        ],
+        [
+          "把知识带进日常观察",
+          "四个健康记录类别与信息整理流程，配日常生活插画和与专业人员沟通的问题清单；不写治疗功效、患病风险或虚构临床统计。"
+        ]
+      ],
+      "prompt_path": "prompts/S14-medical-education.txt",
+      "image_path": "originals/S14-medical-education.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-6f9f627d-a8ca-44d3-9f6c-c79be652c844.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "人体结构及医学解释仅用于风格示例，未按权威来源逐项核验；不直接作医学教育定稿。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 2135575,
+        "sha256": "5f15c9d43b2c326ad90373e326d7aca06681bb48f2e9ef2a424ecad03c1bee71"
+      },
+      "versions": [
+        {
+          "id": "v1",
+          "name": "医学科普 · 清洁可信",
+          "layout": "contact_sheet",
+          "density": "中高",
+          "palette": "柔白 #F6FBFA、深青 #245B62、薄荷 #9ECDBA、珊瑚 #D89182",
+          "design": "医学教材式清楚插图与现代公共教育版式，解剖层级、机制箭头、认知误区比较；内容为通用教育结构示例，不生成个体诊疗指令。",
+          "image_path": "originals/S14-medical-education.png",
+          "prompt_path": "prompts/S14-medical-education.txt",
+          "panels": [
+            [
+              "认识身体中的协同机制",
+              "原创非写实人体轮廓配器官分区，四组知识模块与功能关联，侧边术语解释；标题标医学科普版式示例，细节不冒充诊断影像。"
+            ],
+            [
+              "结构、功能与作用过程",
+              "一个清楚器官或细胞层次示意占左半，右边三阶段功能路径及四个准确短标签；未知医学机制不补造，以结构示意为主。"
+            ],
+            [
+              "常见疑问怎样辨别",
+              "三组疑问、证据来源位置、理解边界的并列栏目；下方正规信息渠道与需要专业判断的情境类别，不提供具体用药或疾病判断。"
+            ],
+            [
+              "把知识带进日常观察",
+              "四个健康记录类别与信息整理流程，配日常生活插画和与专业人员沟通的问题清单；不写治疗功效、患病风险或虚构临床统计。"
+            ]
+          ],
+          "generation": {
+            "status": "generated",
+            "tool": "image_gen.imagegen",
+            "requested_model": "GPT-Image-2.5",
+            "user_authorized_alternative": "内置生图；具体模型标为未披露",
+            "actual_model": "未披露",
+            "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-6f9f627d-a8ca-44d3-9f6c-c79be652c844.png",
+            "generated_date": "2026-10-19"
+          },
+          "visual_review": {
+            "status": "usable_style_reference",
+            "inspected": true,
+            "inspected_date": "2026-10-19",
+            "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+            "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+            "text": "主要标题可辨，正式成稿须独立文字校对",
+            "factual_validation": "not_validated",
+            "notes": "人体结构及医学解释仅用于风格示例，未按权威来源逐项核验；不直接作医学教育定稿。"
+          },
+          "file_metadata": {
+            "width": 1672,
+            "height": 941,
+            "bytes": 2135575,
+            "sha256": "5f15c9d43b2c326ad90373e326d7aca06681bb48f2e9ef2a424ecad03c1bee71"
+          }
+        },
+        {
+          "id": "v2",
+          "name": "医学科普 · 多尺度科学图解",
+          "layout": "single_pages",
+          "density": "高",
+          "palette": "白底、深青 #174955、灰蓝 #7A9EAE、柔珊瑚 #D9A19A、淡紫 #B6AAC9；克制的层次和高对比标签",
+          "design": "Nature biomedical figure 式多尺度医学教育图：人体/器官/组织/细胞的对应层次，精确连接和局部放大，细腻实体插图配平面图解。全部是科学示意，不能装作显微照片或诊断影像，不编造病理或临床数据。",
+          "design_brief_path": "prompts/S14-medical-education-v2.txt",
+          "pages": [
+            {
+              "id": "S14-V2-P1",
+              "style_id": "S14",
+              "page": 1,
+              "title": "从整体到局部，理解身体结构",
+              "prompt_path": "prompts/S14-medical-education-v2-p1.txt",
+              "image_path": "originals/S14-medical-education-v2-p1.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-367a4663-f46d-458e-adc4-c649e384d315.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加多尺度解剖、结构放大与证据类型；生成器补充的医学机制、器官结构和细胞标注未经逐项权威来源验证，不能直接作医学科普定稿。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 2344391,
+                "sha256": "697845ecde5e5fbb5ef3ba07837b123e1606f2fd58fb7637660cce6d4e7297f9"
+              }
+            },
+            {
+              "id": "S14-V2-P2",
+              "style_id": "S14",
+              "page": 2,
+              "title": "结构怎样支持功能",
+              "prompt_path": "prompts/S14-medical-education-v2-p2.txt",
+              "image_path": "originals/S14-medical-education-v2-p2.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-ef537870-b635-4099-9083-9e2bd9fe3620.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加多尺度解剖、结构放大与证据类型；生成器补充的医学机制、器官结构和细胞标注未经逐项权威来源验证，不能直接作医学科普定稿。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 2369683,
+                "sha256": "8d717fb4c651229e1546d0b9a103568b782b6076018410b9e884a22cf32ca232"
+              }
+            },
+            {
+              "id": "S14-V2-P3",
+              "style_id": "S14",
+              "page": 3,
+              "title": "怎样辨认医学图中的证据类型",
+              "prompt_path": "prompts/S14-medical-education-v2-p3.txt",
+              "image_path": "originals/S14-medical-education-v2-p3.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-4fcd4b9c-5516-4051-87a5-c4fbb6ff10b4.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加多尺度解剖、结构放大与证据类型；生成器补充的医学机制、器官结构和细胞标注未经逐项权威来源验证，不能直接作医学科普定稿。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 2091791,
+                "sha256": "8978a59c3d7d04880f23484f251a5c9877cf66e4f57a4246e93d59cef07f0763"
+              }
+            },
+            {
+              "id": "S14-V2-P4",
+              "style_id": "S14",
+              "page": 4,
+              "title": "把疑问整理成可沟通的信息",
+              "prompt_path": "prompts/S14-medical-education-v2-p4.txt",
+              "image_path": "originals/S14-medical-education-v2-p4.png",
+              "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-16b340ed-a5a0-4618-9c01-24aa69973535.png",
+              "status": "generated",
+              "generation": {
+                "tool": "image_gen.imagegen",
+                "actual_model": "未披露",
+                "native_single_page": true,
+                "requested_size": "highest available native landscape",
+                "upscaled": false,
+                "reference_images": [
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R06-literature-progress.png",
+                  "C:\\Users\\ASUS\\.codex\\skills\\research-slide-studio\\assets\\generated-reference-library\\originals\\R04-overall-workflow.png"
+                ]
+              },
+              "visual_review": {
+                "inspected": true,
+                "scope": "style / density / legibility / composition",
+                "content_facts_verified": false,
+                "notes": "比 V1 增加多尺度解剖、结构放大与证据类型；生成器补充的医学机制、器官结构和细胞标注未经逐项权威来源验证，不能直接作医学科普定稿。"
+              },
+              "file_metadata": {
+                "width": 1672,
+                "height": 941,
+                "bytes": 2090462,
+                "sha256": "2e83d5d4ba8a46e356c40e1627f09fe29a29e2c50b086d1f84aaa1ae55c4910d"
+              }
+            }
+          ],
+          "explicit_skill": "nature-figure",
+          "visual_review": {
+            "status": "usable_style_reference",
+            "inspected": true,
+            "content_facts_verified": false,
+            "notes": "比 V1 增加多尺度解剖、结构放大与证据类型；生成器补充的医学机制、器官结构和细胞标注未经逐项权威来源验证，不能直接作医学科普定稿。"
+          }
+        }
+      ],
+      "preferred_version": "v2"
+    },
+    {
+      "id": "S15",
+      "slug": "ecology-sustainability",
+      "name": "生态环保 · 自然系统",
+      "theme": "生态环保与可持续",
+      "density": "中高",
+      "palette": "暖白 #F5F4E9、森林绿 #365E48、草绿 #A2B576、土赭 #B9825D",
+      "design": "自然史插画与生态系统信息图，真实可辨的植物、水与土壤层次，循环路径、行动尺度和边界。不是绿色背景加叶子装饰。",
+      "panels": [
+        [
+          "看见彼此关联的环境问题",
+          "完整河流、林地、城市、湿地的剖面插画，四项环境观察和人类活动关联，侧边研究/行动问题；所有系统关系注明示意。"
+        ],
+        [
+          "从资源投入到循环利用",
+          "五节点资源流图含生产、使用、回收、再利用、处置，配输入输出和损耗位置；下方三个行动尺度示意，不虚构回收率。"
+        ],
+        [
+          "把行动放到具体场景",
+          "校园、社区、办公三个生活场景，各有问题、措施、观察方式三个短栏目，右侧协作角色与反馈路径。"
+        ],
+        [
+          "如何记录变化与持续改进",
+          "左侧指标定义和真实数据待填区域，右侧行动计划、责任分工、复盘问题；底部边界与下一步，无伪造减排数字。"
+        ]
+      ],
+      "prompt_path": "prompts/S15-ecology-sustainability.txt",
+      "image_path": "originals/S15-ecology-sustainability.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-8574c5b4-cded-4045-ba23-5609515fd038.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "生态关系和行动为概念示意；实际环境指标与成效需要真实来源。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 2589785,
+        "sha256": "2882e43fd77095d847015dcdb70be65156a59c7476c29c0022ca97f38f893df0"
+      }
+    },
+    {
+      "id": "S16",
+      "slug": "architecture-space",
+      "name": "建筑空间 · 设计工作室",
+      "theme": "建筑与空间设计",
+      "density": "中高",
+      "palette": "混凝土白 #EEEDE8、石墨 #3B4144、砖红 #A45B4D、灰绿 #8C9B91",
+      "design": "建筑竞图与空间设计评审，轴测、剖面、动线、材料样本和图注，专业网格而非空旷建筑广告。原创概念建筑，不冒充真实项目。",
+      "panels": [
+        [
+          "空间如何回应使用需求",
+          "原创建筑轴测主图与四项使用需求，底部场地、使用者、活动、限制四栏，右侧设计问题与策略；多尺度图元充分。"
+        ],
+        [
+          "从功能组织到动线",
+          "左侧平面示意配功能分区，中间竖向剖面与光线，右侧人流、服务、疏散的概念路径；非工程图不标假精确尺寸。"
+        ],
+        [
+          "材料、光与人的尺度",
+          "三组材料细节与空间局部插画，上方有剖切定位，下方对应感受、维护和适用场景，侧边人尺度轮廓及观察点。"
+        ],
+        [
+          "设计取舍与推进计划",
+          "方案比较矩阵用短标签，旁边三项取舍及理由，底部设计深化、验证、反馈三个阶段与输出；不虚构造价和规范结论。"
+        ]
+      ],
+      "prompt_path": "prompts/S16-architecture-space.txt",
+      "image_path": "originals/S16-architecture-space.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-3fa613e6-f1ca-4408-9338-28e231490c35.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "生成器增加了人体视线高度等数字与方案评价符号；正式稿须核对来源或移除，不作为工程依据。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 2448844,
+        "sha256": "cb8563e7c8858f495f1cf17cff7f30ace129374d29446e2d09a3349fbaba7ad1"
+      }
+    },
+    {
+      "id": "S17",
+      "slug": "creative-editorial",
+      "name": "创意作品 · 现代编辑",
+      "theme": "创意提案与作品集",
+      "density": "中",
+      "palette": "纸白 #F7F5EF、墨黑 #242424、朱红 #D74F3A、浅灰 #D7D4CC",
+      "design": "现代编辑设计与平面作品集，醒目但不占满的字级、紧凑图片编排、序号、项目过程和注解。严禁极简空白海报套路。",
+      "panels": [
+        [
+          "让创意形成清晰表达",
+          "标题不超过页面五分之一，三个原创作品小图配主题、受众和设计意图，侧栏创意命题与约束，底部表达关键词。"
+        ],
+        [
+          "从观察到概念的推导",
+          "观察素材拼贴、问题归纳、概念草图、设计选择四阶段，每阶段有两项图文信息；红色细线连接而非装饰大块。"
+        ],
+        [
+          "一个方案的不同落点",
+          "同一原创视觉身份应用于海报、包装、导视三种载体，配版式、材料、使用环境三个比较维度；保留作品细节与短注。"
+        ],
+        [
+          "选择、修改与完成标准",
+          "左侧两个方案草图与取舍依据，右侧迭代清单与质量标准，底部交付清单和下一步。白底充实，图文比均衡。"
+        ]
+      ],
+      "prompt_path": "prompts/S17-creative-editorial.txt",
+      "image_path": "originals/S17-creative-editorial.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-a962a600-3ab2-45cf-860f-f3ab569a20a4.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "品牌视觉及载体均为虚构创意示例；不代表真实委托项目或品牌。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 2192866,
+        "sha256": "f06d7f687557101a146846f62f642a0931e4634e242fec0f3682692805ef55fb"
+      }
+    },
+    {
+      "id": "S18",
+      "slug": "food-hospitality",
+      "name": "餐饮生活 · 暖色杂志",
+      "theme": "餐饮品牌与生活方式",
+      "density": "中",
+      "palette": "奶油 #FFF5E2、焦糖 #B76A35、酒棕 #673E35、橄榄 #89965E",
+      "design": "美食杂志与精品餐饮提案，食材静物插画、菜品层次、手写小注与编辑网格。图像诱人但内容完整，避免只有一盘菜和大标题。",
+      "panels": [
+        [
+          "一桌风味背后的理念",
+          "食材与菜品原创静物占四成，周围四组品牌/生活主张与解释，底部目标体验、场景和服务方式。无虚构真实品牌或健康功效。"
+        ],
+        [
+          "从食材到风味的过程",
+          "选材、准备、烹调、呈现四段过程，每段有食材小图和风味说明；右侧季节、口感、搭配三组信息，非食谱不编精确用量。"
+        ],
+        [
+          "体验如何完整发生",
+          "入店、点选、共餐、交流四个小场景连成服务路径，下面对应环境、服务、产品和记忆点；图像与文字同等可读。"
+        ],
+        [
+          "让日常有更多仪式感",
+          "三种聚餐/生活场景卡片内含菜单方向、摆台、交流活动，底部准备清单和分工；无需价格和虚假评价，画面温暖充实。"
+        ]
+      ],
+      "prompt_path": "prompts/S18-food-hospitality.txt",
+      "image_path": "originals/S18-food-hospitality.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-44a6052a-32c5-49cf-95cd-9f5811c65b48.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "食物、服务场景与品牌叙事为原创示例；无实际餐饮品牌背书。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 2630490,
+        "sha256": "a0b870ba95b022efee21b3c2f8e7c5db696a3c604e431b275b1da75b37e0cdef"
+      }
+    },
+    {
+      "id": "S19",
+      "slug": "public-service-community",
+      "name": "公益服务 · 社区温度",
+      "theme": "公益与社区活动",
+      "density": "中",
+      "palette": "暖白 #FFF7EC、靛蓝 #4C5B8B、杏橙 #E7A67D、嫩绿 #A7BF9D",
+      "design": "人文公益插画与清楚项目传播，真实感的多年龄社区人物、服务地图、倾听与共创，尊重人物主体性，不采用悲情猎奇图像。",
+      "panels": [
+        [
+          "从倾听开始，让服务发生",
+          "中心社区场景插画配四类需求线索，左侧项目目标和参与对象，右侧服务范围与协作原则；不虚构受助者故事或真实人物。"
+        ],
+        [
+          "把需求转成可执行服务",
+          "倾听、共创、准备、服务、反馈五步图文路径，每步有产物与角色，下方志愿者、社区、伙伴的职责对应。"
+        ],
+        [
+          "一次活动怎样组织",
+          "左侧活动空间地图及四站说明，右侧分组、物资、沟通和突发情况准备，底部流程衔接；不是只有志愿者合影。"
+        ],
+        [
+          "留下改变，也留下反馈",
+          "服务反馈类别与真实记录待填区域，旁边经验、限制和下一步行动；没有虚构受益人数、成效或感人引言。"
+        ]
+      ],
+      "prompt_path": "prompts/S19-public-service-community.txt",
+      "image_path": "originals/S19-public-service-community.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-ec6f78ee-da3b-4cbb-96d0-75573d670e99.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "人物、需求与反馈为公益组织示例；不能声称为真实受助经历或已获成效。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 940,
+        "bytes": 2264524,
+        "sha256": "1f23d152cee2b734238b199574f800a65335e33dccdafedd45072d25bc9795f5"
+      }
+    },
+    {
+      "id": "S20",
+      "slug": "culture-festival",
+      "name": "文化节庆 · 当代国风",
+      "theme": "文化节庆与传统艺术",
+      "density": "中",
+      "palette": "米白 #F9EFD9、朱砂 #B94032、靛青 #314D69、雅金 #C6A05D",
+      "design": "当代国风编辑设计，剪纸、织物、版画与传统器物的原创图形，节奏活泼但精致；与山水水墨及博物馆图录明确区分。",
+      "panels": [
+        [
+          "让传统走进今天的生活",
+          "节庆活动原创插画为中心，四周文化主题、活动形式、参与方式与体验目标四块实质信息，底部活动路径；不编造具体传统起源。"
+        ],
+        [
+          "看见纹样与工艺的语言",
+          "三种原创纹样与手工过程的小图，配材料、结构、用途和观看提示；侧边传统元素转译到当代设计的示意关系。"
+        ],
+        [
+          "一场文化体验的游览路线",
+          "四站活动地图：观赏、体验、交流、分享，每站有互动内容与完成物，右侧年龄友好、材料准备、参与节奏三组说明。"
+        ],
+        [
+          "把文化体验带回日常",
+          "三种生活应用场景和相应作品小图，旁边传承、创新、尊重来源三项原则与行动，底部后续活动计划；充实而非节庆贺卡。"
+        ]
+      ],
+      "prompt_path": "prompts/S20-culture-festival.txt",
+      "image_path": "originals/S20-culture-festival.png",
+      "generation": {
+        "status": "generated",
+        "tool": "image_gen.imagegen",
+        "requested_model": "GPT-Image-2.5",
+        "user_authorized_alternative": "内置生图；具体模型标为未披露",
+        "actual_model": "未披露",
+        "source_file": "C:\\Users\\ASUS\\.codex\\generated_images\\01a152a9-f46a-7dc0-8921-89b8a3cd4a12\\exec-024c5e90-06d0-45e0-bbb3-acb89b97241e.png",
+        "generated_date": "2026-10-19"
+      },
+      "visual_review": {
+        "status": "usable_style_reference",
+        "inspected": true,
+        "inspected_date": "2026-10-19",
+        "layout": "四格完整，主体内容清楚，各格有不同信息职责",
+        "density": "达到本主题参考所需的实质信息量，无稀疏标题页",
+        "text": "主要标题可辨，正式成稿须独立文字校对",
+        "factual_validation": "not_validated",
+        "notes": "工艺、纹样和节庆场景为风格示例；具体文化归属、源流和工艺说明需查证。"
+      },
+      "file_metadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 2852542,
+        "sha256": "a510ccc2f0285aff012f91c92f127f700b4a7ecf21012cfa4508d93c8688952c"
+      }
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "date": "2026-10-19",
+    "v1_files_preserved": 20,
+    "v2_native_pages": 24,
+    "v2_unique_pages": 24,
+    "original_bytes_verified": true,
+    "image_dimensions_verified": true,
+    "gallery_paths_verified": true,
+    "gallery_javascript_syntax_checked": true,
+    "browser_visual_test": "not_run_file_protocol_blocked",
+    "content_facts_verified": false
+  },
+  "updated_date": "2026-10-19",
+  "variant_count": 26,
+  "v1_contact_sheets": 20,
+  "v2_styles": 6,
+  "v2_single_pages": 24,
+  "selected_image_files": 44,
+  "production_record": "v2-production.json"
+}
