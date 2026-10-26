@@ -19,6 +19,7 @@ NS = {'p': 'http://schemas.openxmlformats.org/presentationml/2006/main',
       'c': 'http://schemas.openxmlformats.org/drawingml/2006/chart',
       'r': 'http://schemas.openxmlformats.org/officeDocument/2006/relationships'}
 R = '{' + NS['r'] + '}'
+VECTOR_DETAIL_KINDS = ('dense_scatter', 'heatmap_cells', 'repeated_ticks', 'texture')
 
 
 def norm(text):
@@ -114,8 +115,14 @@ def audit(path, plan_path=None, require_object_map=False):
                 row['picture_details'].append({'name': pname, 'media': media, 'slide_area_fraction': round(fraction, 4) if fraction is not None else None, 'svg_text_nodes': svg_texts, 'svg_contains_raster': raster})
                 permit = allowed.get(pname, {})
                 permitted = bool(permit.get('reason')) and permit.get('role') in ('user_cover', 'photo', 'source_image', 'vector_detail')
+                vector_detail = (permitted and permit.get('role') == 'vector_detail'
+                                 and permit.get('detail_kind') in VECTOR_DETAIL_KINDS)
                 if permit and not permitted:
                     fail(n, f'Invalid allowed_pictures entry for {pname}; supply role and reason.')
+                if permit.get('role') == 'vector_detail' and permit.get('detail_kind') not in VECTOR_DETAIL_KINDS:
+                    fail(n, f'vector_detail {pname} requires detail_kind from {VECTOR_DETAIL_KINDS}; '
+                         'small area or no text is insufficient. Main diagram components, cards, panels, '
+                         'and arrows require native PowerPoint objects.')
                 if svgs:
                     if svg_texts:
                         fail(n, f'SVG picture {pname} contains {svg_texts} text labels; these are not PowerPoint text boxes.')
@@ -123,7 +130,7 @@ def audit(path, plan_path=None, require_object_map=False):
                         fail(n, f'SVG picture {pname} embeds raster/foreign content.')
                     if fraction is not None and fraction >= .50:
                         fail(n, f'SVG picture {pname} occupies {fraction:.0%} of the slide; split into semantic objects.')
-                    if not (permitted and permit.get('role') == 'vector_detail' and not svg_texts and not raster):
+                    if not (vector_detail and not svg_texts and not raster):
                         fail(n, f'SVG picture {pname} is one image object; rebuild native shapes or register a small text-free dense vector_detail.')
                 elif not permitted or permit.get('role') == 'vector_detail':
                     fail(n, f'Picture {pname} lacks a source-image role; generated scientific graphics require vector reconstruction.')
@@ -163,7 +170,9 @@ def audit(path, plan_path=None, require_object_map=False):
                                 fail(n, f'Object {obj.get("id")}: PPTX name {target!r} resolves to {len(matches)} objects.')
                                 continue
                             e, tag = matches[0], local(matches[0].tag)
-                            if tag == 'pic' and not (kind == 'dense_detail' and allowed.get(target, {}).get('role') == 'vector_detail'):
+                            detail = allowed.get(target, {})
+                            if tag == 'pic' and not (kind == 'dense_detail' and detail.get('role') == 'vector_detail'
+                                                     and detail.get('detail_kind') in VECTOR_DETAIL_KINDS):
                                 fail(n, f'Object {obj.get("id")} is a picture, not a native semantic object.')
                             if kind == 'text' and (tag != 'sp' or not native_text(e).strip() or not visible(e)):
                                 fail(n, f'Text object {obj.get("id")} is not visible native text.')

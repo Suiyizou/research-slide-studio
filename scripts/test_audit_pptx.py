@@ -42,7 +42,7 @@ class EditabilityTests(unittest.TestCase):
                 z.writestr(f'ppt/media/detail.{ext}', payload)
         return ppt
 
-    def plan(self, labels=None, objects=None, allowed=None, role='content', generated=True):
+    def plan(self, labels=None, objects=None, allowed=None, role='content', generated=True, detail_kind=None):
         row = {'slide': 1, 'role': role, 'generated_reference': generated}
         if labels is not None:
             self.write_json('labels.json', {'labels': [{'text': t} for t in labels]})
@@ -52,6 +52,8 @@ class EditabilityTests(unittest.TestCase):
             row['objects'] = 'objects.json'
         if allowed:
             row['allowed_pictures'] = [{'name': 'detail', 'role': allowed, 'reason': 'Explicitly declared source/detail'}]
+            if detail_kind is not None:
+                row['allowed_pictures'][0]['detail_kind'] = detail_kind
         return self.write_json('plan.json', {'total_slides': 1, 'slides': [row]})
 
     def test_native_text_and_object_mapping_pass(self):
@@ -66,15 +68,42 @@ class EditabilityTests(unittest.TestCase):
         self.assertEqual(report['totals']['svg_text_nodes'], 1)
 
     def test_outlined_whole_svg_cannot_use_detail_exception(self):
-        plan = self.plan(allowed='vector_detail')
+        plan = self.plan(allowed='vector_detail', detail_kind='dense_scatter')
         svg = '<svg xmlns="http://www.w3.org/2000/svg"><path d="M0 0L2 2"/></svg>'
         report = audit(self.deck(picture=('svg', svg)), plan)
         self.assertTrue(any('occupies' in e for e in report['errors']))
 
     def test_small_text_free_svg_detail_passes(self):
-        plan = self.plan(['Title'], allowed='vector_detail')
-        svg = '<svg xmlns="http://www.w3.org/2000/svg"><path d="M0 0L2 2"/></svg>'
-        self.assertTrue(audit(self.deck(picture=('svg', svg), size=100), plan)['ok'])
+        details = {
+            'dense_scatter': '<circle cx="1" cy="1" r=".2"/><circle cx="2" cy="2" r=".2"/>',
+            'heatmap_cells': '<rect width="1" height="1"/><rect x="1" width="1" height="1"/>',
+            'repeated_ticks': '<path d="M0 0V1 M1 0V1 M2 0V1"/>',
+            'texture': '<path d="M0 0L2 2 M1 0L3 2"/>',
+        }
+        for detail_kind, body in details.items():
+            with self.subTest(detail_kind=detail_kind):
+                plan = self.plan(['Title'], [{'id': 'points', 'kind': 'dense_detail', 'pptx_names': ['detail']}],
+                                 allowed='vector_detail', detail_kind=detail_kind)
+                svg = f'<svg xmlns="http://www.w3.org/2000/svg">{body}</svg>'
+                self.assertTrue(audit(self.deck(picture=('svg', svg), size=100), plan, True)['ok'])
+
+    def test_small_text_free_svg_requires_detail_kind(self):
+        svg = '<svg xmlns="http://www.w3.org/2000/svg"><rect width="10" height="10"/></svg>'
+        report = audit(self.deck(picture=('svg', svg), size=100), self.plan(allowed='vector_detail'))
+        self.assertFalse(report['ok'])
+        self.assertTrue(any('requires detail_kind' in e and 'small area or no text is insufficient' in e
+                            for e in report['errors']))
+
+    def test_main_components_cannot_be_declared_as_vector_details(self):
+        svg = '<svg xmlns="http://www.w3.org/2000/svg"><rect width="10" height="10"/></svg>'
+        for detail_kind in ('card', 'panel', 'diagram', 'arrow'):
+            with self.subTest(detail_kind=detail_kind):
+                plan = self.plan(['Title'], [{'id': 'component', 'kind': 'dense_detail', 'pptx_names': ['detail']}],
+                                 allowed='vector_detail', detail_kind=detail_kind)
+                report = audit(self.deck(picture=('svg', svg), size=100), plan, True)
+                self.assertFalse(report['ok'])
+                self.assertTrue(any('requires detail_kind' in e for e in report['errors']))
+                self.assertTrue(any('not a native semantic object' in e for e in report['errors']))
 
     def test_missing_body_label_fails(self):
         report = audit(self.deck(), self.plan(['Title', 'Body']))
@@ -89,7 +118,8 @@ class EditabilityTests(unittest.TestCase):
         self.assertFalse(audit(self.deck(), plan, True)['ok'])
 
     def test_raster_is_not_vector_detail(self):
-        self.assertFalse(audit(self.deck(picture=('png', b'png')), self.plan(allowed='vector_detail'))['ok'])
+        self.assertFalse(audit(self.deck(picture=('png', b'png')),
+                               self.plan(allowed='vector_detail', detail_kind='dense_scatter'))['ok'])
 
     def test_declared_user_cover_is_allowed(self):
         plan = self.plan(allowed='user_cover', role='cover', generated=False)
